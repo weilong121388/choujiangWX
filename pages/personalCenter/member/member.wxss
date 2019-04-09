@@ -1,0 +1,190 @@
+.header {
+  background: #fff;
+  color: #333;
+}
+
+.banner image {
+  width: 100%;
+}
+
+.con {
+  padding: 30rpx;
+}
+
+.title {
+  font-size: 30rpx;
+  line-height: 30rpx;
+  color: #333;
+}
+
+.ul {
+  margin-top: 30rpx;
+}
+
+.li {
+  width: 208rpx;
+  height: 138rpx;
+  background: linear-gradient(90deg, rgba(249, 182, 0, 1), rgba(255, 35, 61, 1));
+  border-radius: 10rpx;
+  padding: 1px;
+  position: relative;
+}
+
+.box {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  border-radius: 10rpx;
+  padding-top: 32rpx;
+  text-align: center;
+}
+
+.li text {
+  display: block;
+}
+
+.li text:nth-child(1) {
+  font-size: 24rpx;
+  line-height: 24rpx;
+  color: #333;
+}
+
+.li text:nth-child(2) {
+  font-size: 32rpx;
+  line-height: 32rpx;
+  color: #ff243c;
+  margin-top: 18rpx;
+}
+
+.on .box {
+  background: none;
+}
+
+.on .box text {
+  color: #fff;
+}
+
+.tuijian {
+  width: 70rpx;
+  height: 62rpx;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  z-index: 10;
+}
+
+.check {
+  width: 30rpx;
+  height: 30rpx;
+  position: absolute;
+  top: 10rpx;
+  right: 10rpx;
+  z-index: 10;
+}
+
+.notes {
+  font-size: 24rpx;
+  line-height: 24rpx;
+  color: #ff243c;
+  margin-top: 30rpx;
+}
+
+.line {
+  height: 30rpx;
+  background: #efefef;
+}
+
+.pay-li {
+  height: 106rpx;
+  padding-left: 30rpx;
+}
+
+.pay-li image {
+  width: 51rpx;
+  height: 46rpx;
+}
+
+.pay-li text {
+  font-size: 30rpx;
+  color: #2e2a27;
+  margin-left: 30rpx;
+}
+
+.sub {
+  padding-top: 100rpx;
+}
+
+.sub-box {
+  width: 690rpx;
+  height: 72rpx;
+  background: linear-gradient(90deg, rgba(249, 182, 0, 1) 0%, rgba(255, 35, 61, 1) 100%);
+  border-radius: 36rpx;
+  margin: 0 auto;
+  margin-bottom: 30rpx;
+  padding: 1px;
+}
+
+.sub-box button {
+  width: 100%;
+  height: 100%;
+  border-radius: 36rpx;
+  font-size: 30rpx;
+  line-height: 70rpx;
+}
+
+.but1 button {
+  color: #fff;
+}
+
+.but2 button {
+  color: #ff243c;
+  background: #fff;
+}
+
+.info {
+  width: 600rpx;
+  height: 392rpx;
+  background: #fff;
+  border-radius: 5rpx;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 100;
+}
+
+.info-title {
+  height: 303rpx;
+  text-align: center;
+  padding-top: 70rpx;
+}
+
+.info-title image {
+  width: 82rpx;
+  height: 85rpx;
+}
+
+.info-title text {
+  font-size: 30rpx;
+  line-height: 30rpx;
+  color: #333;
+  display: block;
+  margin-top: 52rpx;
+}
+
+.info-but button {
+  font-size: 30rpx;
+  line-height: 88rpx;
+  border-top: 1px solid #e3dfe0;
+}
+
+.info-but button:nth-child(1) {
+  color: #333;
+  border-right: 1px solid #e3dfe0;
+}
+
+.info-but button:nth-child(2) {
+  color: #ff2d3a;
+}

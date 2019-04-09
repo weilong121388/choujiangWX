@@ -1,0 +1,177 @@
+<headNav 
+text="发起抽奖"
+my-class="header" 
+/>
+<!-- imgPath="/img/back_white.png"  -->
+<view class='lottery'>
+  <form bindsubmit="formSubmit">
+    <view class='secBox firsts'>
+      <view class='photo flex-align-center flex-pack-center' style='background:url("/img/tianjiajiangpin@2x.png") no-repeat center top;background-size: cover'>
+        <view class='btn flex-align-center flex-pack-center'><text>请添加奖品图片</text></view>
+        <view class='imageBox' bindtap="chooseimage01" style='background:url("{{background01}}") no-repeat center center;background-size: cover'></view>
+      </view>
+      <view class='textArea'>
+        <view class='textBox'>
+          <text>奖品名称</text>
+          <input name="onename" type="text" placeholder="请输入一等奖奖品名称" placeholder-class="input-placeholder" />
+        </view>
+        <view class='linkText' id='first' wx:if="{{view == first}}" bindtap='addPrize'><text>+添加奖品</text></view>
+      </view>
+    </view>
+    <view wx:if="{{view == two}}" class='secBox'>
+      <view class='photo flex-align-center flex-pack-center' style='background:url("/img/tianjiajiangpin@2x.png") no-repeat center top;background-size: cover'>
+        <view class='btn flex-align-center flex-pack-center' bindtap="chooseimage02"><text>请添加奖品图片</text></view>
+        <view class='imageBox' bindtap="chooseimage02" style='background:url("{{background02}}") no-repeat center center;background-size: cover'></view>
+      </view>
+      <view class='textArea'>
+        <view class='textBox'>
+          <text>奖品名称</text>
+          <input name="twoname" type="text" placeholder="请输入二等奖奖品名称" placeholder-class="input-placeholder" />
+        </view>
+        <view class='linkText' id='two' wx:if="{{view == four}}" bindtap='addPrize'><text>+添加奖品</text></view>
+      </view>
+    </view>
+    <view wx:if="{{view == three}}" class='secBox last'>
+      <view class='photo flex-align-center flex-pack-center' style='background:url("/img/tianjiajiangpin@2x.png") no-repeat center top;background-size: cover'>
+        <view class='btn flex-align-center flex-pack-center' bindtap="chooseimage03"><text>请添加奖品图片</text></view>
+        <view class='imageBox' bindtap="chooseimage03" style='background:url("{{background03}}") no-repeat center center;background-size: cover'></view>
+      </view>
+      <view class='textArea'>
+        <view class='textBox'>
+          <text>奖品名称</text>
+          <input name="threename" type="text" placeholder="请输入三等奖奖品名称" value='{{name03}}' placeholder-class="input-placeholder" />
+        </view>
+      </view>
+    </view>
+    <view class='txtBox'>
+      <view class='pick'>
+        <text>{{message}}</text>
+      </view>
+      <view class='linkTxt' bindtap='pickClick'><text>修改开奖条件>></text></view>
+    </view>
+    <view wx:if="{{blocks=='时间'}}" class='txtBox bgBox'>
+      <text class='title'>开奖时间</text>
+      <view class='time'>
+        <picker name="timeConditions" data-pickername='timeConditions' mode="multiSelector" value="{{opentime}}" bindchange="changeDateTime" bindcolumnchange="changeDateTimeColumn" range="{{dateTimeArray}}">
+          <view class="picker">
+            {{dateTimeArray[0][dateTime[0]]}}月{{dateTimeArray[1][dateTime[1]]}}日 {{dateTimeArray[2][dateTime[2]]}}:{{dateTimeArray[3][dateTime[3]]}}
+          </view>
+        </picker>
+      </view>
+    </view>
+    <view wx:elif="{{blocks=='人数'}}" class='txtBox inputStyle bgBox'>
+      <text class='title'>开奖人数</text>
+      <input name="opennum" placeholder="请输入人数" placeholder-class="input-placeholde" />
+    </view>
+    <view wx:else="{{blocks=='手动'}}" class='txtBox bgBox'>
+      <text class='title'>由发起人手动开奖</text>
+    </view>
+    <view class='txtBox'>
+      <text class='title'>抽奖说明</text>
+    </view>
+    <view class='txtBox bgBox'>
+      <textarea name="lotterynotes" placeholder="请输入此次的抽奖说明" placeholder-class="textarea-placeholder" />
+    </view>
+    <view class='txtBox'>
+      <text class='title'>抽奖价值</text>
+    </view>
+    <view class='txtBox bgBox'>
+      <input name="goodvalue" placeholder="请输入奖品价值" placeholder-class="input-placeholde" />
+    </view>
+    <view class='txtBox'>
+      <text class='title'>赞助商</text>
+    </view>
+    <view class='txtBox bgBox justify instances'>
+      <view class='txtArea justified'>
+        <text class='txts'><text class='txt'>名称</text><text class='icon'>:</text></text>
+        <input name="sponsor" placeholder="请输入赞助商名称" placeholder-class="input-placeholde" />
+      </view>
+      <view class='txtArea justified'>
+        <text class='txts'><text class='txt'>联系方式</text><text class='icon'>:</text></text>
+        <input name="sponsorpoone" placeholder="请输入联系方式" placeholder-class="input-placeholde" />
+      </view>
+      <view class='txtArea justified lasts'>
+        <text class='txts'><text class='txt'>介绍</text><text class='icon'>:</text></text>
+        <input name="sponsorintro" placeholder="请输入赞助商介绍" placeholder-class="input-placeholde" />
+      </view>
+    </view>
+    <view class='txtBox bgBox instances hasPadTop'>
+      <view class='ttlBox'>
+        <text class='ttl'>发红包</text>
+        <switch name="redEnvelope" bindchange="switch1Change" />
+      </view>
+      <view class='btmBox'>
+        <image style='width:26rpx; height:26rpx;' src='/img/tanaho0@2x.png'></image>
+        <text>发红包需缴纳红包费用</text>
+      </view>
+    </view>
+    <view wx:if="{{redEnvelope}}" class='redEnvelope'>
+      <view class='txtBox bgBox instances'>
+        <view class='ttlBox'>
+          <view class='qaBox'>
+            <text>问题1</text>
+            <input name="qa01" value='{{qa01}}' />
+          </view>
+          <view class='ansBox'>
+            <text>答案1</text>
+            <input name="ans01" value='{{ans01}}' />
+          </view>
+          <view class='qaBox'>
+            <text>问题2</text>
+            <input name="qa02" value='{{qa02}}' />
+          </view>
+          <view class='ansBox'>
+            <text>答案2</text>
+            <input name="ans02" value='{{ans02}}' />
+          </view>
+          <view class='qaBox'>
+            <text>问题3</text>
+            <input name="qa03" value='{{qa03}}' />
+          </view>
+          <view class='ansBox finally'>
+            <text>答案3</text>
+            <input name="ans03" value='{{ans03}}' />
+          </view>
+        </view>
+        <view class='btmBox'>
+          <image style='width:26rpx; height:26rpx;' src='/img/tanaho0@2x.png'></image>
+          <text>最多可以发三个问题</text>
+        </view>
+      </view>
+      <view class='txtBox bgBox noTop instances'>
+        <view class='ttlBox noneMg'>
+          <text class='ttl'>红包金额</text>
+          <input name="redmoney" type="text" placeholder="100元" value='{{prize}}' placeholder-class="input-placeholder" />
+        </view>
+        <view class='ttlBox noneBd'>
+          <text class='ttl'>红包数量</text>
+          <input name="rednumber" type="text" placeholder="3个" value='{{number}}' placeholder-class="input-placeholder" />
+        </view>
+      </view>
+    </view>
+    <view class='redEnvelope'>
+      <view class='txtBox bgBox instance instance01'>
+        <view class='ttlBox hasBtm noneMg' style='background: #fff url("/img/icon01.png") no-repeat right 30rpx center;background-size: 14rpx 26rpx;'>
+          <navigator url="/pages/luckDraw/margin/margin">
+            <text class='ttls'>保证金</text>
+          </navigator>
+        </view>
+        <view class='ttlBox noneBd noneBd01' style='background: #fff url("/img/icon01.png") no-repeat right 30rpx center;background-size: 14rpx 26rpx;'>
+          <text class='ttl'>保证金额</text>
+          <view class='price' bindtap='priceClick'><text>{{msg}}</text></view>
+        </view>
+      </view>
+    </view>
+    <view class='txtBox bgBox lasts'>
+      <view class='ttlBox'>
+        <text class='ttl'>是否上推荐</text>
+        <switch name="recommendedFee" bindchange="switch2Change" />
+      </view>
+      <view class='btmBox'>
+        <image style='width:26rpx; height:26rpx;' src='/img/tanaho0@2x.png'></image>
+        <text>需支付推荐费</text>
+      </view>
+    </view>
+    <button class='button' form-type="submit">发起抽奖</button>
+  </form>
+</view>

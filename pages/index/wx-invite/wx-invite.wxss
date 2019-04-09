@@ -1,0 +1,68 @@
+Page{
+  height: 100%;
+  background: #F7F7F7;
+}
+.container{
+  width: 750rpx;
+  background:linear-gradient(90deg,rgba(249,182,0,1),rgba(255,35,61,1)); 
+}
+.aaa{
+  background:linear-gradient(90deg,rgba(249,182,0,1),rgba(255,35,61,1));
+  color: #fff; 
+}
+.innerContainer{
+  width:750rpx;
+  height:125rpx;
+}
+.group{
+  width:750rpx;
+  height:88rpx;  
+  background: #fff;
+  display:flex;
+  flex-direction:row;
+  align-items: center;
+}
+.group image{
+  width:36rpx;
+  height:30rpx;
+  margin-left: 30rpx;
+  margin-right: 26rpx;
+
+}
+.group text{
+  font-size:30rpx;
+  font-family:PingFangSC-Light;
+  font-weight:500;
+  padding-right: 29rpx;
+  color:rgba(0,0,0,1);
+}
+.group input{
+  font-size:24rpx;
+  font-family:PingFangSC-Light;
+  font-weight:300;
+  color:rgba(153,153,153,1);
+}
+.invitation{
+  padding-left:53rpx;
+  padding-top:30rpx;
+  padding-bottom:30rpx;
+  font-size:24rpx;
+  font-family:PingFangSC-Light;
+  font-weight:300;
+  color:rgba(153,153,153,1);
+}
+.place-holder{
+  color:rgba(153,153,153,1);
+  font-size:24rpx;
+}
+button{
+  margin-top:300rpx;
+  width:690rpx;
+  height:72rpx;
+  background:linear-gradient(90deg,rgba(249,182,0,1) 0%,rgba(255,35,61,1) 100%);
+  border-radius:36rpx;
+  font-size:30rpx;
+  font-family:PingFang-SC-Regular;
+  font-weight:400;
+  color:rgba(255,255,255,1);
+}

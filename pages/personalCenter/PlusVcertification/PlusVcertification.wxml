@@ -1,0 +1,23 @@
+<!--pages/personalCenter/Plus V certification/PlusVcertification.wxml-->
+<!-- 头部 -->
+<headNav text="加V认证" my-class="head" imgPath="/img/back_white.png" urlPath="http://www.baidu.com" />
+<!-- 背景图 -->
+<view style="background: url('../../../img/bolang@2x.png') no-repeat; background-size:100%;" class='bk_top'></view>
+<view class='see'>
+  <!-- 手机号和验证码 -->
+  <view class='buju'>
+    <image src='/img/shouji@2x.png' class='tp'></image>
+    <text class='zt'>手机号</text>
+    <input type='text' placeholder='请输入手机号'></input>
+    <button class='btn'>发送验证码</button>
+  </view>
+  <view class='buju'>
+    <image src='/img/yanzhengm@2x.png' class='yzm'></image>
+    <text class='zt'>验证码</text>
+    <input type='text' placeholder='请输入验证码'></input>
+  </view>
+</view>
+
+<view class='btns'>
+  <button class='btn1'>确认</button>
+</view>

@@ -1,0 +1,24 @@
+<!-- 快递单号 -->
+<headNav text="快递单号" my-class="aaa" imgPath="../../../img/back_black.png"/>
+<!-- 整体部分 -->
+<view class='img'>
+  <!-- 图片 -->
+  <image class='tp' src='../../../img/chanpintu@2x.png'></image>
+  <!-- 保障金 -->
+  <view class='rit'>保障金1000元</view>
+  <!-- 赞助商 -->
+  <view class='zz'>
+    <view>猴子偷桃桃</view>
+    <view>赞助</view>
+  </view>
+  <!-- 奖品一 -->
+  <view class='jp'>奖品1：任天堂 Switch 游戏机x1</view>
+  <!-- 奖品一 -->
+  <view class='jp1'>奖品1：ESTEEAUDER/雅诗兰黛 Double Wear 持妆无暇气垫粉霜x1</view>
+  <!-- 时间 -->
+  <view class='time'>04月01日 15：00 自动开奖</view>
+  <!-- 快递单号 -->
+  <view class='fot'>快递单号：63857468354387468</view>
+</view>
+<!-- 确认收货按钮 -->
+<view class='but'>确认收货</view>

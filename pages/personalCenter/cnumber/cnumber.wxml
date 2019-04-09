@@ -1,0 +1,35 @@
+<!-- 化妆品快递单号 -->
+<!-- 整体部分 -->
+<headNav text="快递单号" my-class="aaa" imgPath="../../../img/back_black.png"/>
+<view class='img'>
+  <view class='fl'>
+    <!-- 图片 -->
+      <image class='tp' src='../../../img/chanpin2@2x.png'></image>
+    <view class='name'>
+      <view class='na'>ESTEELAUDER/雅诗兰黛 Double Wear 持妆无瑕气垫粉霜x1</view>
+      <view class='jf'>
+        <view>588</view>
+        <view>积分</view>
+      </view>
+    </view>
+  </view>
+  <!-- 快递单号 -->
+  <view class='fot'>快递单号：63857468354387468</view>
+</view>
+
+<!-- 整体部分 -->
+<view class='img'>
+  <view class='fl'>
+    <!-- 图片 -->
+      <image class='tp' src='../../../img/chuanpi@2x.png'></image>
+    <view class='name'>
+      <view class='na'>30元红包奖励</view>
+      <view class='jf'>
+        <view>588</view>
+        <view>积分</view>
+      </view>
+    </view>
+  </view>
+  <!-- 快递单号 -->
+  <view class='fot'>联系客服：63857468354387468</view>
+</view>

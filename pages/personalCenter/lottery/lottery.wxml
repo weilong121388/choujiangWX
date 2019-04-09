@@ -1,0 +1,49 @@
+<!-- 参与抽奖 -->
+<!-- 头部 -->
+<headNav text="参与抽奖" my-class="aaa" imgPath="../../../img/back_black.png"/>
+<!-- 整体部分 -->
+<view class='img'>
+  <!-- 图片 -->
+  <image class='tp' src='../../../img/chanpintu@2x.png'></image>
+  <!-- 保障金 -->
+  <view class='rit'>保障金1000元</view>
+  <!-- 赞助商 -->
+  <view class='zz'>
+    <view>猴子偷桃桃</view>
+    <view>赞助</view>
+  </view>
+  <!-- 奖品一 -->
+  <view class='jp'>奖品1：任天堂 Switch 游戏机x1</view>
+  <!-- 奖品一 -->
+  <view class='jp1'>奖品1：ESTEEAUDER/雅诗兰黛 Double Wear 持妆无暇气垫粉霜x1</view>
+  <!-- 时间及中将积分 -->
+  <view class='fot'>
+  <!-- 时间 -->
+  <view>04月01日 15：00 自动开奖</view>
+  <view class='wz'>未中奖，获得2积分</view>
+  </view>
+</view>
+
+
+<!-- 整体部分 -->
+<view class='img'>
+  <!-- 图片 -->
+  <image class='tp' src='../../../img/chanpintu@2x.png'></image>
+  <!-- 保障金 -->
+  <view class='rit'>保障金1000元</view>
+  <!-- 赞助商 -->
+  <view class='zz'>
+    <view>猴子偷桃桃</view>
+    <view>赞助</view>
+  </view>
+  <!-- 奖品一 -->
+  <view class='jp'>奖品1：任天堂 Switch 游戏机x1</view>
+  <!-- 奖品一 -->
+  <view class='jp1'>奖品1：ESTEEAUDER/雅诗兰黛 Double Wear 持妆无暇气垫粉霜x1</view>
+  <!-- 时间及中将积分 -->
+  <view class='fot'>
+  <!-- 时间 -->
+  <view>04月01日 15：00 自动开奖</view>
+  <view class='write'>填写信息</view>
+  </view>
+</view>

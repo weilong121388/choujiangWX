@@ -1,0 +1,83 @@
+{
+  "pages": [
+    "pages/personalCenter/Sponsor/Sponsor",
+    "pages/personalCenter/problem/problem",
+    "pages/personalCenter/index/index",
+    "pages/personalCenter/contact/contact",
+    "pages/personalCenter/invite/invite",
+    "pages/index/prize/prize",
+    "pages/index/wx-invite/wx-invite",
+    "pages/index/invite/invite",
+    "pages/index/sponsor/sponsor",
+    "pages/index/Luckdraw/Luckdraw",
+    "pages/index/QQInvitation/Invitation",
+    "pages/index/binding/binding",
+    "pages/personalCenter/hnumber/hnumber",
+    "pages/personalCenter/myexchange/myexchange",
+    "pages/personalCenter/winrecord/winrecord",
+    "pages/personalCenter/lottery/lottery",
+    "pages/personalCenter/success/success",
+    "pages/personalCenter/gold/gold",
+    "pages/personalCenter/PlusVcertification/PlusVcertification",
+    "pages/personalCenter/record/record",
+    "pages/personalCenter/identity/identity",
+    "pages/personalCenter/message/message",
+    "pages/personalCenter/Deliver/Deliver",
+    "pages/personalCenter/cnumber/cnumber",
+    "pages/personalCenter/courierNumber/courierNumber",
+    "pages/template/header/header",
+    "pages/luckDraw/lottery/lottery",
+    "pages/luckDraw/margin/margin",
+    "pages/personalCenter/member/member",
+    "pages/luckDraw/center/center",
+    "pages/personalCenter/service/service",
+    "pages/luckDraw/initiate/initiate",
+    "pages/integralMall/index/index",
+    "pages/index/company_display/company_display",
+    "pages/index/rankingList/rankingList",
+    "pages/index/taskList/taskList",
+    "pages/index/integral/integral",
+    "pages/integralMall/integralMall/integralMall",
+    "pages/integralMall/address/address",
+    "pages/integralMall/detail/detail",
+    "pages/index/lckyDraw_details/lckyDraw_details"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#A0A0A0",
+    "selectedColor": "#F68903",
+    "borderStyle": "white",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "selectedIconPath": "img/fuli0@2x.png",
+        "iconPath": "img/fuli@2x.png",
+        "pagePath": "pages/integralMall/index/index",
+        "text": "福利"
+      },
+      {
+        "selectedIconPath": "img/shangcheng0@2x.png",
+        "iconPath": "img/shangcheng@2x.png",
+        "pagePath": "pages/integralMall/integralMall/integralMall",
+        "text": "积分商城"
+      },
+      {
+        "selectedIconPath": "img/fabuchoujiang0@2x.png",
+        "iconPath": "img/fabuchoujiang@2x.png",
+        "pagePath": "pages/luckDraw/lottery/lottery",
+        "text": "发布抽奖"
+      },
+      {
+        "selectedIconPath": "img/wode@2x.png",
+        "iconPath": "img/wode0@2x.png",
+        "pagePath": "pages/personalCenter/index/index",
+        "text": "我的"
+      }
+    ]
+  }
+}

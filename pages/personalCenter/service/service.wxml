@@ -1,0 +1,6 @@
+<view class='body'>
+  <headNav text="客服" my-class="aaa" imgPath="/img/back_black.png" />
+  <view class="KF">
+    客服微信：354186543541
+  </view>
+</view>

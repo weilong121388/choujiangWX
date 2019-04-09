@@ -1,0 +1,12 @@
+<!--pages/personalCenter/contact/contact.wxml-->
+<headNav text="商务客服" my-class="head" imgPath="/img/back_black.png" urlPath="http://www.baidu.com" />
+
+<view class="KF">
+  客服微信：354186543541
+</view>
+<view class='box'>
+  <view class='font ellipsis'>上首页要备注『我要上首页』</view>
+  <view class='font ellipsis'>小程序广告投放请备注『小程序投放』</view>
+  <view class='font ellipsis'>其他合作请注明『具体合作事项』</view>
+  <view class='font ellipsis'>注：服务时间（5:00-9:00）</view>
+</view>

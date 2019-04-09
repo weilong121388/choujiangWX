@@ -1,0 +1,47 @@
+<view id='detail'>
+  <view class='top'>
+  <!-- 箭头 -->
+    <image src='../../../img/back_white.png' class='jiantou' bindtap='goback'></image>
+  <!-- 轮播图 -->
+    <swiper autoplay='true' interval='3000' class='swiper' bindchange='numchange'>
+      <block wx:for="{{imgUrls}}" wx:key="">
+        <swiper-item>
+          <image src="{{item}}" class='swiper'/>
+        </swiper-item>
+      </block>
+    </swiper>
+    <!-- 轮播图页数 -->
+    <view class='num'>{{num}}/{{imgUrls.length}}</view>
+    <!-- 文字 -->
+    <view class='txt'>
+      <text class='txt1'>{{arr.gname}}</text>
+      <text class='txt2'>{{arr.point}}<text>积分</text></text>
+    </view>
+  </view>
+  <!-- 宝贝详情 -->
+  <view class='xiangqing'>
+      <text>宝贝详情</text>
+      <image src='{{arr.img}}' class='chanpin'></image>
+  </view>
+  <!-- 弹出层 -->
+  <view class='tanchuceng' wx:if='{{showtanchu}}'>
+    <view class='white'>
+    <!-- 图片 -->
+    <image src='../../../img/hongbap@2x.png' class='hongbao'></image>
+    <!-- 文字 -->
+      <view class='duihuan'>
+        <text>兑换成功</text>
+        <text>请联系客服领取</text>
+        <text>微信号：{{arr1.wechat}}</text>
+      </view>
+      <!-- 按钮 -->
+      <view class='anniu'>
+        <view bindtap='quxiao'>取消</view>
+        <view class='red' bindtap='queding'>{{btntxt?'复制微信号':'填写收货地址'}}</view>
+      </view>
+    </view>
+  </view>
+  <!-- 提交按钮 -->
+  <view class='sub' bindtap='tanchu'>立即兑换</view>
+  
+</view>

@@ -1,0 +1,59 @@
+page{
+  height:100%;
+  background: #F7F7F7;
+}
+.outerContainer{
+  width:750rpx;
+  background:linear-gradient(90deg,rgba(249,182,0,1),rgba(255,35,61,1));
+}
+.aaa{
+  background:linear-gradient(90deg,rgba(249,182,0,1),rgba(255,35,61,1));
+  color:#fff;
+}
+.container{
+  width:750rpx;
+  height: 114rpx;
+}
+.content{
+  background: #F7F7F7;
+}
+.photo-text{
+  width:750rpx;
+  height:88rpx;
+  background: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.photo-text image{
+  width:26rpx;
+  height: 26rpx;
+  padding-left: 59rpx;
+  padding-right: 31rpx;
+}
+.photo-text text{
+  font-size:30rpx;
+  font-family:PingFangSC-Light;
+  font-weight:700;
+  padding-right: 29rpx;
+}
+.place-holder{
+  color:rgba(153,153,153,1);
+  font-size:24rpx;
+}
+.content input{
+  font-size:24rpx;
+}
+button{
+  width:690rpx;
+  height:72rpx;
+  background:linear-gradient(90deg,rgba(249,182,0,1) 0%,rgba(255,35,61,1) 100%);
+  border-radius:36rpx;
+  margin-top: 300rpx;
+  margin-left: 30rpx;
+  line-height: 72rpx;
+  font-size:30rpx;
+  font-family:PingFang-SC-Regular;
+  font-weight:400;
+  color:rgba(255,255,255,1);
+}

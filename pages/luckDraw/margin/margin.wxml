@@ -1,0 +1,16 @@
+<headNav 
+text="保证金"
+my-class="header" 
+imgPath="/img/back_black.png" 
+/>
+<view class='margins'>
+  <view class='instanceBox'>
+    <view class='title'>保证金介绍</view>
+    <view class='imageBox'>
+      <image src='/img/xiangqingtu@2x.png' style='width:100%' mode='widthFix'></image>
+    </view>
+  </view>
+  <view class='textBox' wx:for="{{array}}">
+      <text is="wxParse">{{item.contents}}</text>
+  </view>
+</view>

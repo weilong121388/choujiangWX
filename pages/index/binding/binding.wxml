@@ -1,0 +1,33 @@
+<view class='header'>
+<headNav   text="绑定手机号"   my-class="aaa"   imgPath="/img/back_white.png"   urlPath=""/>
+</view>
+<view class='content'>
+      <view class='content_img'>
+        <image src='../../../img/bolang@2x.png'></image>
+      </view>
+      <!-- qq群 -->
+      <view class='content_qq solid'>
+        <view class='solid_1 solid_back'>
+          <!-- 图片 -->
+          <image src='../../../img/shoujihao@2x.png'></image>
+          <!-- 文字 -->
+          <text>手机号</text>
+          <!-- 输入框 -->
+          <input type='text' maxlength="11" placeholder='请输入手机号'></input>
+          <view class='Verification'>
+            获取验证码
+          </view>
+        </view>           
+      </view>
+      <view class='content_Code'>
+        <view class='content_Code_left'>
+          <image src='../../../img/jiavrenzheng@2x.png'></image>
+          <text>验证码</text>
+          <input type='text' placeholder='请输入验证码' maxlength="5"></input>
+        </view>
+      </view>
+     
+</view>
+<view class='bottom'>
+  <button>确认</button>
+</view>

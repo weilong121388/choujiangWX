@@ -1,0 +1,136 @@
+<!--pages/personalCenter/gold/gold.wxml-->
+<headNav text="金币" my-class="head" rightTitle="规则详情" imgPath="/img/back_black.png" urlPath="http://www.baidu.com" />
+<view style="background:url('/img/beijing@2x.png') no-repeat;background-size:100%;height:422rpx;">
+  <view class='padd'>
+    <!-- 左侧 -->
+    <view class='padds'>
+      <view class='font1'>￥2000.00</view>
+      <view class='font2'>可提现余额</view>
+      <view class='font3'>提现记录</view>
+    </view>
+    <!-- 右侧 -->
+    <view class='dis'>
+      <view class='ljb'>领金币</view>
+      <view class='gf'>平分1万金币</view>
+    </view>
+  </view>
+</view>
+<!-- 提现金额 -->
+<view class='bj'>
+  <view class='row'>
+    <image src='/img/jinqian@2x.png' class='money'></image>
+    <input type='text' placeholder='请输入提现金额' />
+  </view>
+</view>
+<!-- 上传个人微信收款码 -->
+<view class='bj1'>
+  <view class='texts'>请上传个人微信收款码</view>
+  <image src='/img/shangchuantupian@2x.png' class='up'></image>
+</view>
+<!-- 金币及时间 -->
+<view class='context'>
+  <scroll-view scroll-y style="height: 480rpx;" bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
+    <view class='rows'>
+      <image src='/img/qian@2x.png' class='qian'></image>
+      <view class='col'>
+        <text class='font_size'>+20</text>
+        <text class='font_size1'>2019-02-31</text>
+      </view>
+      <view class='col1'>
+        <text class='font_size'>王哈哈哈</text>
+        <text class='font_size1'>一级</text>
+      </view>
+    </view>
+    <view class='rows'>
+      <image src='/img/qian@2x.png' class='qian'></image>
+      <view class='col'>
+        <text class='font_size'>+20</text>
+        <text class='font_size1'>2019-02-31</text>
+      </view>
+      <view class='col1'>
+        <text class='font_size'>王哈哈哈</text>
+        <text class='font_size1'>一级</text>
+      </view>
+    </view>
+    <view class='rows'>
+      <image src='/img/qian@2x.png' class='qian'></image>
+      <view class='col'>
+        <text class='font_size'>+20</text>
+        <text class='font_size1'>2019-02-31</text>
+      </view>
+      <view class='col1'>
+        <text class='font_size'>王哈哈哈</text>
+        <text class='font_size1'>一级</text>
+      </view>
+    </view>
+    <view class='rows'>
+      <image src='/img/qian@2x.png' class='qian'></image>
+      <view class='col'>
+        <text class='font_size'>+20</text>
+        <text class='font_size1'>2019-02-31</text>
+      </view>
+      <view class='col1'>
+        <text class='font_size'>王哈哈哈</text>
+        <text class='font_size1'>一级</text>
+      </view>
+    </view>
+    <view class='rows'>
+      <image src='/img/qian@2x.png' class='qian'></image>
+      <view class='col'>
+        <text class='font_size'>+20</text>
+        <text class='font_size1'>2019-02-31</text>
+      </view>
+      <view class='col1'>
+        <text class='font_size'>王哈哈哈</text>
+        <text class='font_size1'>一级</text>
+      </view>
+    </view>
+    <view class='rows'>
+      <image src='/img/qian@2x.png' class='qian'></image>
+      <view class='col'>
+        <text class='font_size'>+20</text>
+        <text class='font_size1'>2019-02-31</text>
+      </view>
+      <view class='col1'>
+        <text class='font_size'>王哈哈哈</text>
+        <text class='font_size1'>一级</text>
+      </view>
+    </view>
+    <view class='rows'>
+      <image src='/img/qian@2x.png' class='qian'></image>
+      <view class='col'>
+        <text class='font_size'>+20</text>
+        <text class='font_size1'>2019-02-31</text>
+      </view>
+      <view class='col1'>
+        <text class='font_size'>王哈哈哈</text>
+        <text class='font_size1'>一级</text>
+      </view>
+    </view>
+    <view class='rows'>
+      <image src='/img/qian@2x.png' class='qian'></image>
+      <view class='col'>
+        <text class='font_size'>+20</text>
+        <text class='font_size1'>2019-02-31</text>
+      </view>
+      <view class='col1'>
+        <text class='font_size'>王哈哈哈</text>
+        <text class='font_size1'>一级</text>
+      </view>
+    </view>
+    <view class='rows'>
+      <image src='/img/qian@2x.png' class='qian'></image>
+      <view class='col'>
+        <text class='font_size'>+20</text>
+        <text class='font_size1'>2019-02-31</text>
+      </view>
+      <view class='col1'>
+        <text class='font_size'>王哈哈哈</text>
+        <text class='font_size1'>一级</text>
+      </view>
+    </view>
+    </scroll-view>
+</view>
+<view class='btns'>
+    <button class='btn'>确认提现</button>
+</view>

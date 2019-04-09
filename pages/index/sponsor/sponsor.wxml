@@ -1,0 +1,44 @@
+<view class="outer">
+  <view class='inner'>
+    <headNav text="赞助商介绍" my-class="introduce" imgPath="/img/back_white.png" />
+    <view class='img-text'>
+      <view class="imgbox">
+        <image class='touxiang' src='/img/gerntouxiang@2x.png'></image>
+        <image class='huangguan' src='/img/gerenhuangguan@2x.png'></image>
+        <image class='icon' src='/img/gerenv@2x.png'></image>
+      </view>
+      <view>
+        <text>无所畏惧的小超人</text>
+        <text>锦鲤号：23545415</text>
+        <text>锦鲤认证：无所畏惧的小超人</text>
+      </view>
+    </view>
+    <view class="count">
+      <text class='XZ3'></text>
+      <view>
+        <view style="font-size:42rpx;font-weight:500;">23</view>
+        <view>发布抽奖数</view>
+      </view>
+      <view>
+        <view style="font-size:42rpx;font-weight:500;">1.0w</view>
+        <view>抽奖参与人数</view>
+      </view>
+    </view>
+    <view class='opacity'>
+      <image src="/img/wexin0@2x.png"></image>
+      <text>hk5478</text>
+      <button>一键复制</button>
+    </view>
+  </view>
+  <view class='content'>
+    <view class='content1'>
+      <text>赞助商介绍</text>
+    </view>
+    <view class="content2">
+      <text>企业要牢固树立以人为本思想，用明确的目标鼓舞人，用宏伟的事业凝聚人，用科学的机制激励人，用优美的环境培育人。要努力开发人力资源，激发员工的积极性、创造性和团队精神。</text>
+    </view>
+    <view class='content3'>
+      <image src='/img/zanzhushangtu@2x.png'></image>
+    </view>
+  </view>
+</view>

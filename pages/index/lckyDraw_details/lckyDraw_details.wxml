@@ -1,0 +1,108 @@
+<view class=''>
+  <headNav text="抽奖详情" my-class="aaa" imgPath="../../../img/back_black.png" />
+  <image src="../../../img/mingxingfendi@2x.png" class='tou'></image>
+  <view class='text_1'>奖品1：ESTEELAUDER/雅诗兰黛 Double Wear持妆无瑕气垫粉霜(700元) x1</view>
+  <view class='time'>04月01日 15：00 自动开奖</view>
+  <view class='bozi'>
+    <view class='zanzhu'>
+      <view class='name_1'>猴子偷桃</view>
+      <view class='name_2'>赞助</view>
+    </view>
+    <view class='text_2'>
+      点击查看赞助商介绍
+      <image sre="img/fanhui@2x.png" class="xiangyou"></image>
+    </view>
+  </view>
+  <view class="ziliao">
+    <view class='touxiang_bj'>
+      <image src="../../../img/touxiang.2@2x.png" class='img_1'></image>
+      <image src='../../../img/xiangqinghuangguan@2x.png' class='img_2'></image>
+      <image src='../../../img/v@2x.png' class='img_3'></image>
+    </view>
+    <view class='text_3'>
+      <view class='name_3'>无所畏惧的小超人</view>
+      <view class='text_4'>锦鲤号：9876543210</view>
+      <view class='text_5'>锦鲤认证：无所畏惧的小超人</view>
+    </view>
+  </view>
+  <view class='fgx'></view>
+  <view calss='content'>
+    <view style="background: url(../../../img/qweqweqwe.png) no-repeat;background-size: 50%;height: 300rpx;margin-left:260rpx;margin-top:30rpx;">
+      <view class='text_6'>点击抽奖</view>
+    </view>
+    <view class='text_7'>
+      已有
+      <view class='text_7_r'>1.0万人</view>
+      参加
+    </view>
+    <view class='text_8'>
+      <view class='text_8_timu'>赞助商介绍</view>
+      <view class='text_8_neirong'>
+        企业要牢固树立以人为本思想，用明确的目标鼓舞人，用宏伟的事业凝聚人，用科学的机制激励人，用优美的环境培育人。要努力开发人力资源，激发员工的积极性、创造性和团队精神。
+      </view>
+    </view>
+    <view class='text_9'>
+      企业要牢固树立以人为本思想，用明确的目标鼓舞人，用宏伟的事业凝聚人，用科学的机制激励人，用优美的环境培育人。要努力开发人力资源，激发员工的积极性、创造性和团队精神。
+    </view>
+    <image class='foot_img' src="../../../img/zanzhushangtu@2x.png"></image>
+    <image class='foot_img' src="../../../img/zanzhushangtu@2x.png"></image>
+  </view>
+  <!-- 弹出 -->
+  <view class='tanchuceng' wx:if='{{showtanchu}}'>
+    <view class='white'>
+      <!-- 图片 -->
+      <image src='../../../img/hongbap@2x.png' class='hongbao'></image>
+      <!-- 文字 -->
+      <view class='duihuan'>
+        <text>领取发布抽奖人发布红包并答题</text>
+        <text>答案在赞助商介绍里面。 </text>
+      </view>
+      <!-- 按钮 -->
+      <view class='anniu'>
+        <view bindtap='quxiao'>取消</view>
+        <view class='red' bindtap='dati'>去答题</view>
+      </view>
+    </view>
+  </view>
+  <!-- 点击答题弹出 -->
+  <view class='daticeng' wx:if='{{showdati}}'>
+    <view class='white' style="background: url(../../../img/datibeijing.png)no-repeat;height: 650rpx;background-size: 100%;">
+      <view class='wenti'>创建群聊的默认人数是多少？</view>
+      <!-- input框 -->
+      <view class="shurukuang">
+        <input type="number" placeholder='111' cursor-spacing='5' value="{{qing}}" />
+      </view>
+      <!-- 按钮 -->
+      <view class='anniu'>
+        <view class='xiayiti' bindtap='next'>下一题</view>
+      </view>
+      <!-- 倒计时 -->
+    </view>
+  </view>
+  <view class='foot'>
+    <view class='fenxiang'>
+      分享
+    </view>
+    <view class='lingqv' bindtap='tanchu'>
+    点击领取红包并答题
+    </view>
+  </view>
+
+
+  <!-- 回答 -->
+  <view class='tanchuceng' wx:if='{{daan}}'>
+    <view class='white'>
+      <!-- 图片 -->
+      <image src='../../../img/hongbap@2x.png' class='hongbao'></image>
+      <!-- 文字 -->
+      <view class='duihuan'>
+        <text>领取发布抽奖人发布红包并答题</text>
+        <text>答案在赞助商介绍里面。 </text>
+      </view>
+      <!-- 按钮 -->
+      <view class='anniu'>
+        <view class='red' bindtap="sub">确定</view>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,21 @@
+<view class='outerContainer'>
+  <view class="container">
+    <headNav text='填写微信群邀请' my-class='aaa' imgPath="/img/back_white.png"/>
+    <view style="background:url('/img/bolang@2x.png');background-repeat:no-repeat;background-size:100%;" class="innerContainer"></view>
+  </view>
+  <view class='group'>
+    <image src='/img/wx_invite.png' alt></image>
+    <text>微信群</text>
+    <input type="text" value='9681253966'/>
+  </view>
+  <view  class="invitation">
+    <text>加微信管理员获取邀请码</text>
+  </view>
+  <view class='group'>
+    <image src='/img/wx_invite.png' alt></image>
+    <text>邀请码</text>
+    <input type="text" placeholder='请输入微信群邀请码'
+placeholder-class='place-holder'/>
+  </view>
+  <button>确认</button>
+</view>

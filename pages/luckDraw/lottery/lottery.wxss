@@ -1,0 +1,402 @@
+.header {
+  position: relative;
+  color: #FFFFFF;
+  font-family: PingFang-SC-Regular;
+  font-size: 36rpx;
+  z-index: 999;
+  background: linear-gradient(to right, #F9B600 0%,#FF233D 100%);
+}
+
+.lottery {
+  padding-bottom: 86rpx;
+  position: relative;
+  z-index: 0;
+  background-color: #EFEFEF;
+}
+
+.lottery .secBox {
+  margin-top: 30rpx;
+  background-color: #FFFFFF;
+}
+
+.lottery .firsts {
+  margin-top: 0;
+}
+
+.lottery .secBox .photo {
+  position: relative;
+  height: 517rpx;
+  display: flex;
+}
+
+.lottery .secBox .photo .btn {
+  margin: 0 auto;
+  width: 256rpx;
+  min-height: 88rpx;
+  position: relative;
+  display: flex;
+  color: #FFFFFF;
+  font-family: PingFang-SC-Regular;
+  font-size: 28rpx;
+  border-radius: 0;
+  z-index: 100;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.lottery .secBox .photo .imageBox {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 900;
+}
+
+.lottery .textArea {
+  padding: 0 30rpx;
+}
+
+.lottery .textArea .textBox {
+  padding: 30rpx 0;
+  position: relative;
+}
+
+.lottery .last .textArea .textBox {
+  border-bottom: none;
+}
+
+.lottery .textArea .textBox text {
+  position: absolute;
+  left: 0;
+  top: 40rpx;
+  color: #333333;
+  font-family: PingFang-SC-Regular;
+  font-size: 30rpx;
+}
+
+.lottery .textArea .textBox input {
+  width: 100%;
+  padding-left: 130rpx;
+  font-family: PingFang-SC-Regular;
+  font-size: 26rpx;
+  text-align: right;
+  box-sizing: border-box;
+}
+
+.lottery .textArea .textBox .input-placeholder {
+  color: #999999;
+  font-family: PingFang-SC-Regular;
+  font-size: 26rpx;
+  text-align: right;
+}
+
+.lottery .textArea .linkText {
+  padding: 30rpx 0;
+  color: #FF263C;
+  font-family: PingFang-SC-Regular;
+  font-size: 30rpx;
+  text-align: center;
+  border-top: 1rpx solid #E5E5E5;
+}
+
+.lottery .txtBox {
+  padding: 30rpx;
+  position: relative;
+}
+
+.lottery .bgBox {
+  background-color: #FFFFFF;
+}
+
+.lottery .txtBox .title {
+  color: #333333;
+  font-family: PingFang-SC-Regular;
+  font-size: 28rpx;
+}
+
+.lottery .txtBox .pick {
+  color: #333333;
+  font-family: PingFang-SC-Regular;
+  font-size: 28rpx;
+}
+
+.lottery .txtBox .linkTxt {
+  position: absolute;
+  right: 30rpx;
+  top: 30rpx;
+  color: #FF243C;
+  font-family: PingFang-SC-Regular;
+  font-size: 28rpx;
+  text-align: right;
+}
+
+.lottery .txtBox .time {
+  position: absolute;
+  right: 30rpx;
+  top: 36rpx;
+  color: #999999;
+  font-family: PingFang-SC-Regular;
+  font-size: 26rpx;
+}
+
+.lottery .inputStyle {
+  position: relative;
+}
+
+.lottery .inputStyle input {
+  padding-left: 150rpx;
+  font-family: PingFang-SC-Regular;
+  font-size: 26rpx;
+  text-align: right;
+  box-sizing: border-box;
+}
+
+.lottery .inputStyle .title {
+  position: absolute;
+  left: 30rpx;
+  top: 40rpx;
+}
+
+.lottery .txtBox textarea {
+  height: 192rpx;
+  font-family: PingFang-SC-Regular;
+  font-size: 26rpx;
+}
+
+.lottery .txtBox input {
+  font-family: PingFang-SC-Regular;
+  font-size: 26rpx;
+}
+
+.lottery .txtBox .textarea-placeholder,
+.lottery .txtBox .input-placeholde {
+  color: #999999;
+  font-family: PingFang-SC-Regular;
+  font-size: 26rpx;
+}
+
+.lottery .txtBox .txtArea {
+  padding: 30rpx;
+  position: relative;
+  border-bottom: 1px solid #E5E5E5;
+}
+
+.lottery .txtBox .txtArea.lasts {
+  border-bottom: none;
+}
+
+.lottery .txtBox .txtArea text {
+  position: absolute;
+  left: 0;
+  top: 36rpx;
+  color: #333333;
+  font-family: PingFang-SC-Regular;
+  font-size: 30rpx;
+}
+
+.lottery .txtBox .txtArea input {
+  margin-left: 128rpx;
+}
+
+.lottery .txtBox .txtArea .input-placeholde {
+  color: #999999;
+  font-family: PingFang-SC-Regular;
+  font-size: 26rpx;
+}
+
+.lottery .justify {
+  padding-bottom: 94rpx;
+}
+
+.lottery .justify .justified .txts .txt {
+  width: 4em;
+  display: inline-block;
+  text-align: justify;
+}
+
+.lottery .justify .justified .txts .txt::before{
+  content: "";
+}
+
+.lottery .justify .justified .txts .txt::after{
+  content: "";
+  width: 100%;
+  display: inline-block
+}
+
+.lottery .justify .justified .txts text {
+  position: static;
+  left: auto;
+  top: auto;
+  display: inline-block;
+}
+
+.lottery .justify .justified .txts .icon {
+  vertical-align: top;
+}
+
+.lottery .txtBox.instances {
+  margin-bottom: 30rpx;
+  padding: 0 30rpx 22rpx;
+}
+
+.lottery .txtBox.instance {
+  margin-bottom: 30rpx;
+}
+
+.lottery .txtBox.hasPadTop {
+  padding-top: 30rpx;
+}
+
+.lottery .txtBox.lasts {
+  margin-bottom: 52rpx;
+  padding-bottom: 22rpx;
+}
+
+.lottery .txtBox .ttl {
+  color: #333333;
+  font-family: PingFang-SC-Regular;
+  font-size: 30rpx;
+}
+
+.lottery .txtBox switch {
+  position: absolute;
+  right: 30rpx;
+  top: 30rpx;
+}
+
+.lottery .txtBox .ttlBox {
+  margin-bottom: 20rpx;
+  padding-bottom: 30rpx;
+  border-bottom: 1px solid #E5E5E5;
+}
+
+.lottery .txtBox .btmBox {
+  line-height: 1;
+}
+
+.lottery .txtBox .btmBox image {
+  margin-top: 2rpx;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.lottery .txtBox .btmBox text {
+  margin-left: 20rpx;
+  display: inline-block;
+  color: #FF243C;
+  font-family: PingFang-SC-Regular;
+  font-size: 24rpx;
+  vertical-align: top;
+}
+
+.lottery .button {
+  margin: 0 30rpx;
+  padding: 22rpx 20rpx;
+  color: #FFFFFF;
+  font-family: PingFang-SC-Regular;
+  font-size: 30rpx;
+  text-align: center;
+  border-radius: 60rpx;
+  background: linear-gradient(to right, #F9B600 0%,#FF233D 100%);
+}
+
+.lottery .redEnvelope .ttlBox {
+  padding-bottom: 0;
+}
+
+.lottery .redEnvelope .qaBox,
+.lottery .redEnvelope .ansBox {
+  position: relative;
+}
+
+.lottery .redEnvelope .qaBox text,
+.lottery .redEnvelope .ansBox text {
+  position: absolute;
+  left: 0;
+  top: 30rpx;
+  color: #333333;
+  font-family: PingFang-SC-Regular;
+  font-size: 30rpx;
+}
+
+.lottery .redEnvelope .ttlBox .qaBox input,
+.lottery .redEnvelope .ttlBox .ansBox input {
+  margin-left: 104rpx;
+  padding-left: 0;
+  min-height: 88rpx;
+  width: auto;
+  text-align: left;
+  border-bottom: 1rpx solid #E5E5E5;
+}
+
+.lottery .redEnvelope .ansBox.finally input {
+  border-bottom: none;
+}
+
+.lottery .redEnvelope .txtBox .ttlBox {
+  position: relative;
+}
+
+.lottery .redEnvelope .txtBox input {
+  width: 100%;
+  min-height: 88rpx;
+  padding-left: 130rpx;
+  font-family: PingFang-SC-Regular;
+  font-size: 26rpx;
+  box-sizing: border-box;
+  text-align: right;
+}
+
+.lottery .redEnvelope .txtBox .input-placeholder {
+  color: #999999;
+  font-family: PingFang-SC-Regular;
+  font-size: 26rpx;
+  text-align: right;
+}
+
+.lottery .redEnvelope .txtBox .ttlBox .ttl {
+  position: absolute;
+  left: 0;
+  top: 28rpx;
+}
+
+.lottery .redEnvelope .txtBox .ttlBox.noneBd {
+  border-bottom: none;
+}
+
+.lottery .redEnvelope .txtBox .ttlBox.noneMg {
+  margin-bottom: 0;
+}
+
+.lottery .redEnvelope .txtBox.noTop {
+  padding: 0 30rpx; 
+}
+
+.lottery .redEnvelope .txtBox .ttlBox .ttls {
+  color: #333333;
+  font-family: PingFang-SC-Regular;
+  font-size: 30rpx;
+}
+
+.lottery .redEnvelope .txtBox .ttlBox.hasBtm {
+  padding-bottom: 28rpx;
+}
+
+.lottery .redEnvelope .txtBox .ttlBox.noneBd01 .price {
+  padding: 32rpx 64rpx 0 0;
+  min-height: 88rpx;
+  color: #999999;
+  font-family: PingFang-SC-Regular;
+  font-size: 26rpx;
+  text-align: right;
+}
+
+.lottery .redEnvelope .txtBox.instance01 .ttlBox {
+  margin-bottom: 0;
+}
+
+.lottery .redEnvelope .txtBox.instance01 {
+  padding-bottom: 0;
+}
+

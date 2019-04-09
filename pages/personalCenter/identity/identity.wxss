@@ -1,0 +1,63 @@
+/* pages/personalCenter/identity authentication/identity.wxss */
+page{
+  width: 100%;
+  height: 100%;
+  background-color: #EFEFEF;
+}
+/* 头部组件 */
+.head{
+  background-color: #fff;
+}
+.padd{
+  padding: 25rpx;
+}
+/* 布局 */
+.buju{
+ padding-top: 10rpx;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 10rpx;
+  height: 325rpx;
+}
+/* 字体设置 */
+.font1{
+  color: #FF6600;
+  font-size: 30rpx;
+}
+.font2{
+  font-size: 24rpx;
+  color: #999999;
+  padding-top: 5rpx;
+}
+/* 图片横向排列 */
+.row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+/* 图片大小设置 */
+.tp{
+  width: 234rpx;
+  height: 146rpx;
+  padding: 40rpx;
+}
+/* 提交按钮 */
+
+.btn1 {
+  background: linear-gradient(90deg, rgba(249, 182, 0, 1) 0%, rgba(255, 35, 61, 1) 100%);
+  width: 690rpx;
+  height: 72rpx;
+  font-size: 30rpx;
+  font-weight: 400;
+  border-radius: 36rpx;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #fff;
+  margin-top: 100rpx;
+}
+.btn{
+  padding: 30rpx;
+}

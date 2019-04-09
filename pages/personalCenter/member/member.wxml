@@ -1,0 +1,50 @@
+<view class='main'>
+  <headNav text="会员" my-class="header" imgPath="/img/back_black.png" />
+  <view class='banner'>
+    <image src='/img/huiyuanbanner@2x.png' mode="widthFix"></image>
+  </view>
+  <view class='con'>
+    <text class='title'>选择优惠套餐</text>
+    <view class='ul flex flex-pack-justify'>
+      <view class="li {{on == index?'on':''}}" wx:for="{{list}}" wx:key="{{index}}" bindtap='tab' data-index='{{index}}'>
+        <view class='box'>
+          <text class='tit1'>{{item.title}}</text>
+          <text class='tit2'>￥{{item.price}}</text>
+        </view>
+        <image class='tuijian' src="{{on == index ?'/img/tuijian.png':'/img/tuijian1.png'}}" wx:if="{{item.istuijian}}"></image>
+        <image class='check' src='/img/check.png' wx:if="{{index == on}}"></image>
+      </view>
+    </view>
+    <text class='notes'>注：购买会员后，发起抽奖时支付收费减半。</text>
+  </view>
+  <view class='line'></view>
+  <view class='pay'>
+    <view class='pay-ul'>
+      <view class='pay-li flex flex-align-center'>
+        <image src='/img/weixin@2x.png'></image>
+        <text>微信支付</text>
+      </view>
+    </view>
+  </view>
+  <view class='line'></view>
+  <view class='sub'>
+    <view class='sub-box but1'>
+      <button>立即购买</button>
+    </view>
+    <!-- <view class='sub-box but2'>
+      <button>修改身份信息</button>
+    </view> -->
+  </view>
+  <view class='masks' wx:if="{{showInfo}}">
+    <view class='info'>
+      <view class='info-title'>
+        <image src='/img/wannshanxinxi@2x.png'></image>
+        <text>您还完善信息！</text>
+      </view>
+      <view class='info-but flex'>
+        <button class='flex1' bindtap='toggleInfo'>取消</button>
+        <button class='flex1'>去完善</button>
+      </view>
+    </view>
+  </view>
+</view>

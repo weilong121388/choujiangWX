@@ -1,0 +1,30 @@
+.header {
+  border-bottom: 1rpx solid #EFEFEF;
+}
+
+.margins .instanceBox {
+  margin: 0 30rpx;
+  padding: 30rpx 0 110rpx;
+}
+
+.margins .instanceBox .title {
+  color: #333333;
+  font-family: PingFang-SC-Bold;
+  font-weight: bold;
+  font-size: 40rpx;
+}
+
+.margins .instanceBox .imageBox {
+  margin-bottom: 30rpx;
+  text-align: center;
+}
+
+.margins .instanceBox .textBox text {
+  margin-bottom: 40rpx; 
+  display: block;
+  color: #333333;
+  font-family: PingFang-SC-Regular;
+  font-size: 32rpx;
+  line-height: 48rpx;
+  text-indent: 2em;
+}

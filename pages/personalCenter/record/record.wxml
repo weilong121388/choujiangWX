@@ -1,0 +1,104 @@
+<!--pages/personalCenter/record/record.wxml-->
+<headNav text="提现记录" my-class="head" rightTitle="" imgPath="/img/back_black.png" urlPath="http://www.baidu.com" />
+<!-- 金币及时间 -->
+<view class='context'>
+  <view class='rows'>
+    <image src='/img/qian@2x.png' class='qian'></image>
+    <view class='col'>
+      <text class='font_size'>+20</text>
+      <text class='font_size1'>2019-02-31</text>
+    </view>
+    <view class='col1'>
+      <text class='font_size'>王哈哈哈</text>
+      <text class='font_size1'>一级</text>
+    </view>
+  </view>
+    <view class='rows'>
+    <image src='/img/qian@2x.png' class='qian'></image>
+    <view class='col'>
+      <text class='font_size'>+20</text>
+      <text class='font_size1'>2019-02-31</text>
+    </view>
+    <view class='col1'>
+      <text class='font_size'>王哈哈哈</text>
+      <text class='font_size1'>一级</text>
+    </view>
+  </view>
+    <view class='rows'>
+    <image src='/img/qian@2x.png' class='qian'></image>
+    <view class='col'>
+      <text class='font_size'>+20</text>
+      <text class='font_size1'>2019-02-31</text>
+    </view>
+    <view class='col1'>
+      <text class='font_size'>王哈哈哈</text>
+      <text class='font_size1'>一级</text>
+    </view>
+  </view>
+    <view class='rows'>
+    <image src='/img/qian@2x.png' class='qian'></image>
+    <view class='col'>
+      <text class='font_size'>+20</text>
+      <text class='font_size1'>2019-02-31</text>
+    </view>
+    <view class='col1'>
+      <text class='font_size'>王哈哈哈</text>
+      <text class='font_size1'>一级</text>
+    </view>
+  </view>
+    <view class='rows'>
+    <image src='/img/qian@2x.png' class='qian'></image>
+    <view class='col'>
+      <text class='font_size'>+20</text>
+      <text class='font_size1'>2019-02-31</text>
+    </view>
+    <view class='col1'>
+      <text class='font_size'>王哈哈哈</text>
+      <text class='font_size1'>一级</text>
+    </view>
+  </view>
+    <view class='rows'>
+    <image src='/img/qian@2x.png' class='qian'></image>
+    <view class='col'>
+      <text class='font_size'>+20</text>
+      <text class='font_size1'>2019-02-31</text>
+    </view>
+    <view class='col1'>
+      <text class='font_size'>王哈哈哈</text>
+      <text class='font_size1'>一级</text>
+    </view>
+  </view>
+    <view class='rows'>
+    <image src='/img/qian@2x.png' class='qian'></image>
+    <view class='col'>
+      <text class='font_size'>+20</text>
+      <text class='font_size1'>2019-02-31</text>
+    </view>
+    <view class='col1'>
+      <text class='font_size'>王哈哈哈</text>
+      <text class='font_size1'>一级</text>
+    </view>
+  </view>
+    <view class='rows'>
+    <image src='/img/qian@2x.png' class='qian'></image>
+    <view class='col'>
+      <text class='font_size'>+20</text>
+      <text class='font_size1'>2019-02-31</text>
+    </view>
+    <view class='col1'>
+      <text class='font_size'>王哈哈哈</text>
+      <text class='font_size1'>一级</text>
+    </view>
+  </view>
+    <view class='rows'>
+    <image src='/img/qian@2x.png' class='qian'></image>
+    <view class='col'>
+      <text class='font_size'>+20</text>
+      <text class='font_size1'>2019-02-31</text>
+    </view>
+    <view class='col1'>
+      <text class='font_size'>王哈哈哈</text>
+      <text class='font_size1'>一级</text>
+    </view>
+  </view>
+</view>

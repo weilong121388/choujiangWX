@@ -1,0 +1,31 @@
+<!--pages/personalCenter/message/message.wxml-->
+<headNav text="填写信息" my-class="head" imgPath="/img/back_black.png" urlPath="http://www.baidu.com" />
+<view class='box'>
+    <view class='rows'>
+      <text class='texts'>收货人</text>
+      <input type='text' placeholder='请输入收货人姓名'></input>
+    </view>
+     <view class='rows'>
+      <text class='texts'>收货人手机号</text>
+      <input type='text' placeholder='请输入手机号'></input>
+    </view>
+     <view class='rows'>
+      <text class='texts'>省份</text>
+      <input type='text' placeholder='请输入省份名称'></input>
+    </view>
+     <view class='rows'>
+      <text class='texts'>城市</text>
+      <input type='text' placeholder='请输入城市名称'></input>
+    </view>
+     <view class='rows'>
+      <text class='texts'>地区</text>
+      <input type='text' placeholder='请输入地区名称'></input>
+    </view>
+    <view class='col'>
+      <text class='texts'>详细地址</text>
+      <textarea placeholder='请输入详细地址' class='inp'></textarea>
+    </view>
+</view>
+<view class='btn1'>
+<button class='btn'>确认</button>
+</view>

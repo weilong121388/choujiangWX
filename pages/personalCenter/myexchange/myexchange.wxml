@@ -1,0 +1,50 @@
+<!-- 我的兑换 -->
+<!-- 整体部分 -->
+<headNav text="我的兑换" my-class="aaa" imgPath="../../../img/back_black.png" />
+
+<view class='img'>
+  <view class='fl flex'>
+    <!-- 图片 -->
+    <image class='tp' src='../../../img/chanpin2@2x.png'></image>
+    <view class='name flex1'>
+      <view class='na'>ESTEELAUDER/雅诗兰黛 Double Wear 持妆无瑕气垫粉霜x1</view>
+      <view class='dj flex flex-pack-justify'>
+        <view class='jf'>
+          <text>588</text>
+          <text>积分</text>
+        </view>
+        <button class='ckdh'>查看单号</button>
+      </view>
+    </view>
+  </view>
+
+  <view class='fl flex'>
+    <!-- 图片 -->
+    <image class='tp' src='../../../img/chanpin2@2x.png'></image>
+    <view class='name flex1'>
+      <view class='na'>ESTEELAUDER/雅诗兰黛 Double Wear 持妆无瑕气垫粉霜x1</view>
+      <view class='dj flex flex-pack-justify'>
+        <view class='jf'>
+          <text>588</text>
+          <text>积分</text>
+        </view>
+        <button class='ckdh'>查看单号</button>
+      </view>
+    </view>
+  </view>
+
+  <view class='fl flex'>
+    <!-- 图片 -->
+    <image class='tp' src='../../../img/chuanpi@2x.png'></image>
+    <view class='name flex1'>
+      <view class='na'>30元红包奖励</view>
+      <view class='dj flex flex-pack-justify'>
+        <view class='jf'>
+          <text>588</text>
+          <text>积分</text>
+        </view>
+        <button class='ckdh'>查看单号</button>
+      </view>
+    </view>
+  </view>
+</view>

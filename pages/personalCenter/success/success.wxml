@@ -1,0 +1,13 @@
+<!--pages/personalCenter/Plus V certification/success.wxml-->
+<headNav 
+text="加V认证" 
+my-class="head" 
+imgPath="/img/back_white.png" 
+urlPath="http://www.baidu.com"
+/>
+<view  style="background: url('/img/bolang@2x.png') no-repeat;   background-size: 100%;height: 161rpx;">
+</view>
+<!-- 认证成功显示的内容 -->
+<view class='juzhong'>
+<image src='/img/renzheng@2x.png' class='tp'></image>
+</view>

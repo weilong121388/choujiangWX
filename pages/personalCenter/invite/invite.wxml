@@ -1,0 +1,50 @@
+<!--pages/personalCenter/invite/invite.wxml-->
+<!-- 头部 -->
+<headNav text="邀请好友" my-class="head" imgPath="/img/back_black.png" />
+<view class='banners'>
+  <image src='/img/banner@2x.png' class='banner'></image>
+</view>
+<view class='back_middle'>
+  <view class='back_in'>
+    <view class='rowsa'>
+      <text>头像</text>
+      <text>昵称</text>
+      <text>返利值</text>
+    </view>
+    <scroll-view scroll-y style="height: 615rpx;" bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
+      <view class='rows'>
+        <view class='rows-box'>
+          <view class='img_bj'>
+            <image src="/img/touxiang.2@2x.png" class='tx'></image>
+            <image src="/img/gerenhuangguan@2x.png" class='img_2'></image>
+            <image src="/img/paihangbangv@2x.png" class='img_3'></image>
+          </view>
+        </view>
+        <view class='ellipsis flex1'>无所畏惧的小超人</view>
+        <view>1500</view>
+      </view>
+      <view class='rows'>
+        <view class='rows-box'>
+          <view class='img_bj'>
+            <image src="/img/touxiang.2@2x.png" class='tx'></image>
+            <image src="/img/gerenhuangguan@2x.png" class='img_2'></image>
+            <image src="/img/paihangbangv@2x.png" class='img_3'></image>
+          </view>
+        </view>
+        <view class='ellipsis flex1'>无所畏惧的小超人</view>
+        <view>1500</view>
+      </view>
+      <view class='rows'>
+        <view class='rows-box'>
+          <view class='img_bj'>
+            <image src="/img/touxiang.2@2x.png" class='tx'></image>
+            <image src="/img/gerenhuangguan@2x.png" class='img_2'></image>
+            <image src="/img/paihangbangv@2x.png" class='img_3'></image>
+          </view>
+        </view>
+        <view class='ellipsis flex1'>无所畏惧的小超人</view>
+        <view>1500</view>
+      </view>
+    </scroll-view>
+  </view>
+</view>

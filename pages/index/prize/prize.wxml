@@ -1,0 +1,37 @@
+<view class="outer">
+  <headNav text="所有抽奖" my-class="aaa" imgPath="/img/back_black.png"/>
+  <view class='inner'>
+    <text>参与成功，获得3积分</text>
+    <text>抽奖码：12563225</text>
+    <text>开奖时间为03月30日 18：00</text>
+    <view class="btn">
+      <button>分享给好友</button>
+      <button>我知道了</button>
+    </view>
+  </view>
+
+  <view class='lists_box'>
+    <view class='lists'>
+      <view class='lists_con'>保障金1000元</view>
+      <view class='lists_top'>
+        <image src='/img/chanpintu@2x.png'></image>
+      </view>
+      <view class='lists_tit'>
+        <view class='lists_name'><text class='mr_rg'>猴子偷桃桃</text>赞助</view>
+        <view class='lists_num'>奖品：任天堂 Switch 游戏机x1</view>
+        <view class='lists_time'><text class='mr_rg'>04月01日15：00</text>自动开奖</view>
+      </view>
+    </view>
+    <view class='lists' style='margin-bottom:0'>
+      <view class='lists_con'>保障金1000元</view>
+      <view class='lists_top'>
+        <image src='/img/chanpintu@2x.png'></image>
+      </view>
+      <view class='lists_tit'>
+        <view class='lists_name'><text class='mr_rg'>猴子偷桃桃</text>赞助</view>
+        <view class='lists_num'>奖品1：任天堂 Switch 游戏机x1</view>
+        <view class='lists_cont'>奖品1：ESTEELAUDER/雅诗兰黛 Double Wear</view>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,122 @@
+<view class='bj'>
+  <headNav text="排行榜" my-class="aaa" imgPath="../../../img/back_black.png" />
+  <view class='top_1'>
+    <view class='touxiang'>
+    <image src='{{boss.avatarUrl}}' class='image_1'></image>
+    <image src='../../../img/gerenhuangguan@2x.png' class='image_2'></image>
+    <image src='../../../img/paihangbangv@2x.png' class='image_3'></image>
+  </view>
+  <view class='name_1'>{{boss.nickName}}</view>
+  <view class='chjzh'>
+    <view class='cjz'>成就值</view>
+    <view class='cjzdz'>{{boss.achievements}}</view>
+  </view>
+  </view>
+  <scroll-view scroll-x="true" class="weui-navbar" >
+     <block wx:for-items="{{tabs}}" wx:key="{{item.id}}">
+      <view id="{{index}}" class="{{activeIndex == index ?'item_on':''}} default-item" bindtap="tabClick" style="width:{{tabW}}px">
+        {{item}}
+      </view>
+   </block>
+   <view class="weui-navbar-slider" style="transform:translateX({{slideOffset}}px);"></view>
+  </scroll-view>
+  <view  class="rec" />
+  <swiper current="{{activeIndex}}" class="swiper-box" duration="100" bindchange="bindChange">
+    <swiper-item class="swiper-item">
+      <view class="table">
+          <view class="tr flex-view-item{{index%2==0? 'odd':'even'}}">
+              <view class="th">排行</view>
+              <view class="th_tx">头像</view>
+              <view class="th_name">昵称</view>
+              <view class="th">成就值</view>
+          </view>
+          <view class="tr flex-view-item{{index%2==0? 'odd':'even'}}" wx:for-items="{{cheng}}" wx:for-item="item" wx:key="key">
+              <view class="td">
+              {{item.key}}
+              </view>
+              <view class="td">
+                <view class='img_bj'>
+                  <image src="{{item.avatarUrl}}" class='img_1'></image>
+                  <image src="../../../img/gerenhuangguan@2x.png" class='img_2'></image>
+                  <image src="../../../img/paihangbangv@2x.png" class='img_3'></image>
+                </view>
+              </view>
+              <view class="td_name">{{item.nickName}}</view>
+              <view class="td_zhi">{{item.achievements}}</view>
+          </view>
+      </view>
+    </swiper-item>
+     <swiper-item class="swiper-item">
+      <view class="table">
+          <view class="tr flex-view-item{{index%2==0? 'odd':'even'}}">
+              <view class="th">排行</view>
+              <view class="th_tx">头像</view>
+              <view class="th_name">昵称</view>
+              <view class="th">积分</view>
+          </view>
+          <view class="tr flex-view-item{{index%2==0? 'odd':'even'}}" wx:for-items="{{jifen}}" wx:for-item="item" wx:key="key">
+              <view class="td">
+              {{item.key}}
+              </view>
+              <view class="td">
+                <view class='img_bj'>
+                  <image src="{{item.avatarUrl}}" class='img_1'></image>
+                  <image src="../../../img/gerenhuangguan@2x.png" class='img_2'></image>
+                  <image src="../../../img/paihangbangv@2x.png" class='img_3'></image>
+                </view>
+              </view>
+              <view class="td_name">{{item.nickName}}</view>
+              <view class="td_zhi">{{item.achievements}}</view>
+          </view>
+      </view>
+    </swiper-item>
+     <swiper-item class="swiper-item">
+      <view class="table">
+          <view class="tr flex-view-item{{index%2==0? 'odd':'even'}}">
+              <view class="th">排行</view>
+              <view class="th_tx">头像</view>
+              <view class="th_name">昵称</view>
+              <view class="th_x">获奖次数</view>
+          </view>
+          <view class="tr flex-view-item{{index%2==0? 'odd':'even'}}" wx:for-items="{{huo}}" wx:for-item="item" wx:key="key">
+              <view class="td">
+              {{item.key}}
+              </view>
+              <view class="td">
+                <view class='img_bj'>
+                  <image src="{{item.avatarUrl}}" class='img_1'></image>
+                  <image src="../../../img/gerenhuangguan@2x.png" class='img_2'></image>
+                  <image src="../../../img/paihangbangv@2x.png" class='img_3'></image>
+                </view>
+              </view>
+              <view class="td_name">{{item.nickName}}</view>
+              <view class="td_zhi">{{item.achievements}}</view>
+          </view>
+      </view>
+    </swiper-item>
+     <swiper-item class="swiper-item">
+      <view class="table">
+          <view class="tr flex-view-item{{index%2==0? 'odd':'even'}}">
+              <view class="th">排行</view>
+              <view class="th_tx">头像</view>
+              <view class="th_name">昵称</view>
+              <view class="th_x">发起抽奖</view>
+          </view>
+          <view class="tr flex-view-item{{index%2==0? 'odd':'even'}}" wx:for-items="{{faqi}}" wx:for-item="item" wx:key="key">
+              <view class="td">
+              {{item.key}}
+              </view>
+              <view class="td">
+                <view class='img_bj'>
+                  <image src="{{item.avatarUrl}}" class='img_1'></image>
+                  <image src="../../../img/gerenhuangguan@2x.png" class='img_2'></image>
+                  <image src="../../../img/paihangbangv@2x.png" class='img_3'></image>
+                </view>
+              </view>
+              <view class="td_name">{{item.nickName}}</view>
+              <view class="td_zhi">{{item.achievements}}</view>
+          </view>
+      </view>>
+    </swiper-item>
+  </swiper>
+</view>

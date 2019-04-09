@@ -1,0 +1,33 @@
+<view class='header'>
+<headNav   text="填写QQ群邀请码"   my-class="aaa"   imgPath="/img/back_white.png"   urlPath=""/>
+</view>
+<view class='content'>
+      <view class='content_img'>
+        <image src='../../../img/bolang@2x.png'></image>
+      </view>
+      <!-- qq群 -->
+      <view class='content_qq'>
+            <!-- 图片 -->
+            <image src='../../../img/qq@2x.png'></image>
+            <!-- 文字 -->
+            <text>QQ群</text>
+            <!-- 输入框 -->
+            <input type='text' maxlength="10" placeholder='23253966'></input>
+      </view>
+      <!-- 加QQ群获取邀请码 -->
+      <view class='content_text'>
+        <text>加QQ群获取邀请码</text>
+      </view>
+      <!-- 邀请码 -->
+      <view class='content_qq'>
+            <!-- 图片 -->
+            <image src='../../../img/qq@2x.png'></image>
+            <!-- 文字 -->
+            <text>邀请码</text>
+            <!-- 输入框 -->
+            <input type='text' maxlength="10" placeholder='请输入QQ群邀请码'></input>
+      </view>
+</view>
+<view class='bottom'>
+  <button>确认</button>
+</view>

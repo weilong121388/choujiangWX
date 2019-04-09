@@ -1,0 +1,324 @@
+/* 文字左右对齐 */
+
+.justified {
+  text-align: justify;
+}
+
+.justified::before {
+  content: "";
+}
+
+.justified::after {
+  content: "";
+  width: 100%;
+  display: inline-block;
+}
+
+.body {
+  width: 100%;
+  /* height: 100%; */
+  background: #efefef;
+  position: absolute;
+}
+
+.headerbox {
+  height: 350rpx;
+  background: linear-gradient(90deg, rgba(249, 182, 0, 1), rgba(255, 35, 61, 1));
+  position: relative;
+}
+
+.tishi {
+  position: absolute;
+  width: 690rpx;
+  left: 50%;
+  box-sizing: border-box;
+  transform: translate(-50%);
+  font-size: 24rpx;
+  font-family: PingFang-SC-Regular;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  bottom: calc(86rpx + 20rpx);
+}
+
+.headertext_box {
+  width: 690rpx;
+  background: #fff;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 0 29rpx;
+  margin: 0 auto;
+  margin-top: calc(-150rpx / 2);
+  position: relative;
+  z-index: 1;
+}
+
+.headertext_box>radio-group{
+  width: 100%;
+  
+}
+
+.headertext_box>radio-group>text {
+  height: 1rpx;
+  width: 630rpx;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border-bottom: 1rpx solid rgba(229, 229, 229, 1);
+}
+
+.tishi2 {
+  font-size: 24rpx;
+  font-family: PingFang-SC-Regular;
+  font-weight: 400;
+  color: rgba(255, 36, 60, 1);
+}
+
+.headertext_box>view {
+  border-bottom: 1rpx solid rgba(229, 229, 229, 1);
+  font-family: PingFang-SC-Regular;
+  font-weight: 400;
+  height: auto;
+  line-height: calc(150rpx / 2);
+  position: relative;
+}
+.headertext_box>radio-group>view {
+  border-bottom: 1rpx solid rgba(229, 229, 229, 1);
+  font-family: PingFang-SC-Regular;
+  font-weight: 400;
+  height: auto;
+  line-height: calc(150rpx / 2);
+  position: relative;
+}
+.headertext_box>radio-group>view>label{
+  display: block;
+  
+}
+.headertext_box>radio-group>view>label>radio{
+  /* width: 32rpx; */
+  /* height: 32rpx; */
+  vertical-align: middle;
+  transform: scale(0.7)
+}
+.headertext_box>view:last-child {
+  border: none;
+}
+
+.headertext_box>view>.tishi2 {
+  border-bottom: 1rpx solid rgba(229, 229, 229, 1);
+}
+
+.headertext_box>view>.tishi2:last-child {
+  border: none;
+}
+
+.header_text_name {
+  font-family: PingFang-SC-Regular;
+  font-weight: 400;
+  font-size: 30rpx;
+  position: relative;
+  left: 0;
+}
+
+.aaa {
+  background: linear-gradient(90deg, rgba(249, 182, 0, 1), rgba(255, 35, 61, 1));
+}
+
+.aaa {
+  color: #fff !important;
+}
+
+.header_text {
+  position: absolute;
+  font-family: PingFang-SC-Regular;
+  font-weight: 400;
+  font-size: 30rpx;
+  right: 0;
+}
+
+.red {
+  color: #ff243c;
+}
+
+.content_box {
+  height: 353rpx;
+  width: 690rpx;
+  border-radius: 10px;
+  background: #fff;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  margin-top: 30rpx;
+  /* padding: 0 30rpx; */
+  box-sizing: border-box;
+}
+
+.content_box>view {
+  height: 87rpx;
+  line-height: 87rpx;
+  border-bottom: 1rpx solid rgba(229, 229, 229, 1);
+  border-top: 1rpx solid rgba(229, 229, 229, 1);
+  position: relative;
+  padding: 0 30rpx;
+
+}
+
+.content_box>view:last-child {
+  border-bottom: none;
+}
+
+.content_box>view>text {
+  font-size: 30rpx;
+  font-family: PingFang-SC-Regular;
+  font-weight: 400;
+  color: rgba(51, 51, 51, 1);
+}
+.content_box>checkbox-group>view>label>checkbox{
+transform: scale(0.7)
+}
+
+.content_box>checkbox-group>view>label {
+  width: 100%;
+  height: 87rpx;
+  display: block;
+  line-height: 87rpx;
+  position: relative;
+  padding: 0 30rpx;
+}
+
+.content_box>checkbox-group>view>label:last-child {
+  border-bottom: none;
+}
+
+.content_box>checkbox-group>view>label>text {
+  font-size: 30rpx;
+  font-family: PingFang-SC-Regular;
+  font-weight: 400;
+  color: rgba(51, 51, 51, 1);
+}
+
+.content_text {
+  position: absolute;
+  font-family: PingFang-SC-Regular;
+  font-weight: 400;
+  font-size: 30rpx;
+  right: 30rpx;
+}
+
+.jine {
+  position: relative;
+}
+
+.jine {
+  position: absolute;
+  font-family: PingFang-SC-Regular;
+  font-weight: 400;
+  font-size: 30rpx;
+  right: 30rpx
+}
+
+.Pay_name {
+  font-size: 30rpx;
+  font-family: PingFang-SC-Regular;
+  font-weight: 400;
+  color: rgba(51, 51, 51, 1);
+  padding-left: 35rpx;
+  margin-top: 31rpx;
+  margin-bottom: 31rpx;
+}
+
+.Pay_box {
+  background: #fff;
+  border-radius: 10px;
+  height: 88rpx;
+  width: 689rpx;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 10rpx 29rpx;
+}
+
+.Pay_box>text {
+  font-size: 30rpx;
+  font-family: PingFang-SC-Regular;
+  font-weight: 400;
+  color: rgba(46, 42, 39, 1);
+  line-height: 40px;
+}
+
+.btn {
+  width: 690rpx;
+  height: 72rpx;
+  background: linear-gradient(90deg, rgba(249, 182, 0, 1), rgba(255, 35, 61, 1));
+  margin: 0 auto;
+  margin-top: 66rpx;
+  margin-bottom: 61rpx;
+  color: #fff;
+  font-size: 30rpx;
+  border-radius: 9999rpx;
+  line-height: 72rpx;
+
+}
+
+.maks {
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+}
+
+.maks>view {
+  width: 591rpx;
+  height: 647rpx;
+  background: linear-gradient(90deg, rgba(249, 182, 0, 1), rgba(255, 35, 61, 1));
+  top: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+}
+
+.maks_top {
+  height: 407rpx;
+  width: 100%;
+  position: relative;
+}
+
+.maks_bottom {
+  height: 240rpx;
+  width: 100%;
+  position: absolute;
+  background: #fff;
+  bottom: -1rpx
+}
+
+.maks_bottom_text {
+  margin-top: 35rpx;
+  text-align: center;
+  font-size: 32rpx;
+  font-family: PingFang-SC-Regular;
+  font-weight: bold;
+  color: rgba(51, 51, 51, 1);
+}
+
+.bat {
+  width: 417rpx;
+  /* height: 72rpx; */
+  line-height: 72rpx;
+  background: linear-gradient(90deg, rgba(249, 182, 0, 1), rgba(255, 35, 61, 1));
+  border-radius: 99999rpx;
+  margin: 0 auto;
+  margin-top: 50rpx;
+  font-size: 30rpx;
+  font-family: PingFang-SC-Regular;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+}
+
+.none {
+  display: none;
+}
+
+.bright789_view_hide {
+  display: block;
+}

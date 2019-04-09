@@ -1,0 +1,48 @@
+.head {
+  height: 88rpx;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.box {
+  padding-top: 88rpx;
+}
+
+.left {
+  width: 240rpx;
+  text-align: left;
+}
+
+.right {
+  width: 240rpx;
+  text-align: right;
+}
+
+.back {
+  width: 20rpx;
+  height: 36rpx;
+  margin-left: 30rpx;
+  margin-top: 26rpx;
+}
+
+.title {
+  font-size: 36rpx;
+  line-height: 88rpx;
+  font-weight: 500;
+}
+
+.rightTitle {
+  font-size: 30rpx;
+  line-height: 88rpx;
+  color: #000;
+  margin-right: 30rpx;
+  display: inline-block;
+}

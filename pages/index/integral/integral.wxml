@@ -1,0 +1,56 @@
+<!--pages/personalCenter/integral/integral.wxml-->
+<view class='whole'>
+   <headNav text="积分" my-class="aaa" imgPath="../../../img/back_black.png" />
+  <view class='hesd_frame'>
+    <image style="width: 50px; height: 50px;border-radius:50%;margin-top: 25rpx;margin-left:25rpx;" src="../../../img/jifen01@2x.png"></image>
+    <view>
+      <view class='p_one'>可用积分</view>
+      <view class='p_two'>12138</view>
+    </view>
+    <view class='red_bao'>领红包</view>
+  </view><!--头部栏 -->
+  <view class='neck'></view><!--脖子 -->
+  <view class='content'> 
+    <view class='left'>
+      <view class='p_san'>每日登录</view>
+      <view class='p_si'>2019-3-28 12:36:08</view>
+    </view>
+    <view class='right'>
+      <image src="../../../img/jifen0@2x.png"></image>
+     <text>+10</text>
+    </view>
+  </view><!--详情 -->
+
+  <view class='content'> 
+    <view class='left'>
+      <view class='p_san'>分享程序</view>
+      <view class='p_si'>2019-3-28 12:36:08</view>
+    </view>
+    <view class='right'>
+      <image src="../../../img/jifen0@2x.png"></image>
+     <text>+10</text>
+    </view>
+  </view><!--详情 -->
+
+  <view class='content'> 
+    <view class='left'>
+      <view class='p_san'>邀请好友</view>
+      <view class='p_si'>2019-3-28 12:36:08</view>
+    </view>
+    <view class='right'>
+      <image src="../../../img/jifen0@2x.png"></image>
+     <text>+15</text>
+    </view>
+  </view><!--详情 -->
+
+  <view class='content'> 
+    <view class='left'>
+      <view class='p_san'>关注微信公众号</view>
+      <view class='p_si'>2019-3-28 12:36:08</view>
+    </view>
+    <view class='right'>
+      <image src="../../../img/jifen0@2x.png"></image>
+     <text>+10</text>
+    </view>
+  </view><!--详情 -->
+</view>

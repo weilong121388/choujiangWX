@@ -1,0 +1,13 @@
+<view class="content">
+  <view class='outerContainer'>
+    <headNav text="填写邀请码" my-class="aaa" imgPath="/img/back_white.png"/>
+    <view style="background:url('/img/bolang@2x.png');background-repeat:no-repeat;background-size:100%" class='container'></view>
+  </view>
+  <view class='photo-text'>
+    <image src='/img/invitation.png' alt></image>
+    <text>邀请码</text>
+    <input type="text" placeholder='请输入邀请人的邀请码' placeholder-class="place-holder"/>
+  </view>
+  <button>确认</button>
+</view>
+  

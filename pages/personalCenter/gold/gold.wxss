@@ -1,0 +1,205 @@
+/* pages/personalCenter/gold/gold.wxss */
+
+page {
+  width: 100%;
+  height: 100%;
+  background-color: #efefef;
+}
+
+/* 头部组件 */
+
+.head {
+  background-color: #fff;
+}
+
+.padd {
+  padding: 220rpx 5rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/* 字体设置 */
+
+.font1 {
+  color: #fff;
+  font-size: 46rpx;
+  padding-bottom: 17rpx;
+}
+
+.font2 {
+  font-size: 24rpx;
+  color: rgba(255, 255, 255, 1);
+  padding-bottom: 15rpx;
+}
+
+.font3 {
+  font-size: 24rpx;
+  color: #fff;
+  width: 112rpx;
+  height: 44rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid rgba(255, 255, 255, 1);
+  border-radius: 8rpx;
+}
+
+/* 领金币 */
+
+.dis {
+  display: flex;
+  flex-direction: column;
+  padding: 80rpx;
+}
+
+/* 领金币的字体设置 */
+
+.ljb {
+  font-size: 30rpx;
+  background: linear-gradient(90deg, rgba(249, 182, 0, 1) 0%, rgba(255, 35, 61, 1) 100%);
+  border-radius: 10px;
+  height: 53rpx;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #fff;
+}
+
+/* 瓜分金币 字体*/
+
+.gf {
+  font-size: 24rpx;
+  color: #fff;
+  padding-top: 20rpx;
+  display: flex;
+  align-items: center;
+}
+
+/*  提现背景设置*/
+
+.bj {
+  height: 130rpx;
+  background-color: #fff;
+  margin-top: 25rpx;
+  padding: 0 30rpx;
+}
+
+/* 提现横向排列 */
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 20rpx 10rpx;
+}
+
+/*  提现图片设置*/
+
+.money {
+  width: 29rpx;
+  height: 39rpx;
+}
+
+/* input框中placeholder字体大小设置 */
+
+input {
+  color: #999;
+  font-size: 24rpx;
+  padding-left: 20rpx;
+}
+
+/*上传个人微信收款码 */
+
+/* 背景设置 */
+
+.bj1 {
+  margin-top: 30rpx;
+  background-color: #fff;
+  height: 252rpx;
+  padding: 30rpx 30rpx;
+}
+
+/* 字体设置 */
+
+.texts {
+  font-size: 24rpx;
+  color: #333;
+}
+
+/* 上传图片大小设置 */
+
+.up {
+  width: 140rpx;
+  height: 140rpx;
+  padding-top: 20rpx;
+  padding-left: 20rpx;
+}
+
+/* 金币及时间 */
+/* 背景设置 */
+.context{
+  background-color: #fff;
+  margin-top: 20rpx; 
+   padding: 33rpx 30rpx;
+}
+.rows{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 20rpx 0;
+}
+
+/* 图片钱设置 */
+.qian{
+  width: 60rpx;
+  height: 60rpx;
+}
+/* 字体垂直排列 */
+.col{
+  display: flex;
+  flex-direction: column;
+  padding: 0 20rpx;
+}
+/* 字体大小 */
+.font_size{
+  color: #333333;
+  font-size: 30rpx;
+}
+.font_size1{
+  color: #999999;
+  font-size: 24rpx;
+}
+.col1{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  padding-right: 20rpx;
+}
+/* 滚动条隐藏 */
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+/* button按钮 */
+.btns{
+  padding: 30rpx;
+}
+.btn {
+  background: linear-gradient(90deg, rgba(249, 182, 0, 1) 0%, rgba(255, 35, 61, 1) 100%);
+  width: 690rpx;
+  height: 72rpx;
+  font-size: 30rpx;
+  font-weight: 400;
+  border-radius: 36rpx;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #fff;
+  margin-top: 80rpx;
+}

@@ -1,0 +1,89 @@
+<view class='body'>
+  <headNav text="发起抽奖" my-class="aaa" imgPath="/img/back_black.png" />
+  <view class='ul_box'>
+    <view class='ul_li'>
+      <view class='ul_li_img'>
+        <image style='height:100%;' mode="{{arry}}" src='/img/suoyouchoujiang@2x.png'></image>
+      </view>
+      <view class='bar'>
+        保障金1000元
+      </view>
+      <view class='ul_li_content'>
+        <view class='ul_li_content_title'>
+          猴子偷桃桃 赞助
+        </view>
+        <view class='ul_li_content_name'>
+          奖品1：任天堂 Switch 游戏机x1
+        </view>
+        <view class='ul_li_content_name2'>
+          奖品1：ESTEELAUDER/雅诗兰黛 Double Wear 持妆无瑕气垫粉霜x1
+        </view>
+        <view class='ul_li_content_buttonbox'>
+          <view class='ul_li_content_time'>04月01日 15：00</view>
+          <button class='ul_li_content_button'>开奖</button>
+        </view>
+      </view>
+    </view>
+    <view class='ul_li'>
+      <view class='ul_li_img'>
+        <image style='height:100%;' mode="{{arry}}" src='/img/suoyouchoujiang@2x.png'></image>
+      </view>
+      <view class='bar'>
+        保障金1000元
+      </view>
+      <view class='ul_li_content Award'>
+        <view class='ul_li_content_title'>
+          猴子偷桃桃 赞助
+        </view>
+        <view class='ul_li_content_name'>
+          奖品1：任天堂 Switch 游戏机x1
+        </view>
+        <view class='ul_li_content_name2'>
+          奖品1：ESTEELAUDER/雅诗兰黛 Double Wear 持妆无瑕气垫粉霜x1
+        </view>
+        <view class='ul_li_content_buttonbox'>
+          <view class='ul_li_content_time'>04月01日 15：00 自动开奖</view>
+          <button class='ul_li_content_Ybutton'>已开奖</button>
+          <text class='tabbar'></text>
+        </view>
+      </view>
+      <view class='Award_ul'>
+        <view class='Award_title'>
+          中奖名单
+        </view>
+        <view class='Award_listbox'>
+          <view class='Award_list'>
+            <view class='Award_list_imgbox'>
+              <image style='width:100%;height:100%;' src='/img/xhongjiangtouxiang@2x.png'></image>
+            </view>
+            <view class='Award_list_cont'>
+              <view class='Award_list_cont_title'>哈哈哈哈</view>
+              <view class='Award_list_cont_text '>未填写信息</view>
+            </view>
+            <button class='Award_list_cont_botton yifahuo'>发货</button>
+          </view>
+          <view class='Award_list'>
+            <view class='Award_list_imgbox'>
+              <image style='width:100%;height:100%;' src='/img/xhongjiangtouxiang@2x.png'></image>
+            </view>
+            <view class='Award_list_cont'>
+              <view class='Award_list_cont_title'>哈哈哈哈</view>
+              <view class='Award_list_cont_text '>已填写信息</view>
+            </view>
+            <button class='Award_list_cont_botton fahuo'>发货</button>
+          </view>
+          <view class='Award_list'>
+            <view class='Award_list_imgbox'>
+              <image style='width:100%;height:100%;' src='/img/xhongjiangtouxiang@2x.png'></image>
+            </view>
+            <view class='Award_list_cont'>
+              <view class='Award_list_cont_title'>哈哈哈哈</view>
+              <view class='Award_list_cont_text '>已填写信息</view>
+            </view>
+            <button class='Award_list_cont_botton shouhuo'>已收货</button>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

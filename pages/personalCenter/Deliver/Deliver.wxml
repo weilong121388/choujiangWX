@@ -1,0 +1,37 @@
+<!-- 中奖者信息 -->
+<headNav text="发货" my-class="aaa" imgPath="../../../img/back_black.png"/>
+<view class='boxs'>
+  <view class='xx'>中奖者信息</view>
+  <!-- 姓名手机号 -->
+  <view class="bor">
+    <view class='name'>王麻子</view>
+    <view class='phone'>13454341354</view>
+  </view>
+  <!-- 地址 -->
+  <view class='dz'>山东省潍坊市奎文区呼叫中心B座3楼</view>
+</view>
+<!-- 填写单号 -->
+<view class='foot'>
+  <view class='fot'>
+    <!-- 填写单号 -->
+    <view class='dh'>
+      <image src='../../../img/tainxeidanhao@2x.png'></image>
+      <view class='zi'>填写单号：</view>
+    </view>
+    <!-- 请输入快递单号 -->
+    <input placeholder='请输入快递单号'></input>
+  </view>
+  <!-- 上传图片 -->
+  <view class='tp'>
+    <image src='../../../img/tipian@2x.png'></image>
+    <view class='zi'>上传图片：</view>
+  </view>
+  <!-- 图片 -->
+  <view class='sc'>
+    <image class='i1' src='../../../img/tainjiatupian@2x.png'></image>
+    <image class='i2' src='../../../img/tainjiatupian@2x.png'></image>
+    <image class='i2' src='../../../img/tainjiatupian@2x.png'></image>
+  </view>
+</view>
+<!-- 确认按钮 -->
+<view class='btn' >确认</view>

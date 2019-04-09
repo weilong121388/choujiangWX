@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+      "headNav": "/pages/template/header/header"
+  }
+}

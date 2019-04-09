@@ -1,0 +1,54 @@
+/* pages/personalCenter/record/record.wxss */
+page {
+  width: 100%;
+  height: 100%;
+  background-color: #efefef;
+}
+
+/* 头部组件 */
+
+.head {
+  background-color: #fff;
+}
+/* 金币及时间 */
+/* 背景设置 */
+.context{
+  background-color: #fff;
+  margin-top: 20rpx; 
+   padding: 33rpx 30rpx;
+}
+.rows{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 20rpx 0;
+}
+
+/* 图片钱设置 */
+.qian{
+  width: 60rpx;
+  height: 60rpx;
+}
+/* 字体垂直排列 */
+.col{
+  display: flex;
+  flex-direction: column;
+  padding: 0 20rpx;
+}
+/* 字体大小 */
+.font_size{
+  color: #333333;
+  font-size: 30rpx;
+}
+.font_size1{
+  color: #999999;
+  font-size: 24rpx;
+}
+.col1{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  padding-right: 20rpx;
+}

@@ -1,0 +1,165 @@
+<view class='body'>
+  <!-- 个人中心 -->
+<!-- 头部 -->
+<headNav text="个人中心" my-class="index"/>
+<!-- 头像整体部分 -->
+<view class='tx'>
+  <!-- 头像部分 -->
+  <view class='txcont'>
+    <!-- 皇冠图片 -->
+    <image class='huangun' src='../../../img/gerenhuangguan@2x.png'></image>
+    <!-- 头像 -->
+    <view class='txbor'>
+      <image class='tximg' src='../../../img/gerntouxiang@2x.png'></image>
+    </view>
+    <!-- 钻石图片 -->
+    <image class='zs' src='../../../img/gerenv@2x.png'></image>
+  </view>
+  <!-- 用户名部分 -->
+  <view class='tm'>
+    <!-- 网名 -->
+    <view class='p1'>苗可爱😀</view>
+    <view class='p2'>锦鲤号：23545415</view>
+    <view class='p3'>锦鲤认证：苗可爱😀</view>
+  </view>
+</view>
+<!-- 余额部分 -->
+<view class='balance' style='background: url("/img/yeebeijing@2x.png") no-repeat;background-size:100%;'>
+  <view class='left'>
+    <view class='num'>2000.00</view>
+    <view class='p4'>余额</view>
+  </view>
+  <image src='../../../img/jilu@2x.png'></image>
+</view>
+<!-- 参与抽奖 -->
+<navigator class='rot' url="../lottery/lottery" hover-class="none">
+  <view class='rot1'>
+    <!-- 字段前的图标 -->
+    <view class='lft'>
+      <image src='../../../img/canyuchoujiang@2x.png' class='cy'></image>
+      <!-- 字段 -->
+      <view class='p5'>参与抽奖</view>
+    </view>
+    <!-- 小箭头 -->
+    <image class='right' src='../../../img/xiaojiantou1.png'></image>
+  </view>
+</navigator>
+<!-- 发起抽奖 -->
+<navigator class='rot' hover-class="none" url="../../luckDraw/lottery/lottery">
+  <view class='rot1'>
+    <!-- 字段前的图标 -->
+    <view class='lft'>
+      <image src='../../../img/faqichoujiang@2x.png' class='fq'></image>
+      <!-- 字段 -->
+      <view class='p5'>发起抽奖</view>
+    </view>
+    <!-- 小箭头 -->
+    <image class='right' src='../../../img/xiaojiantou1.png'></image>
+  </view>
+</navigator>
+<!-- 中奖记录 -->
+<navigator class='rot' hover-class="none" url="../winrecord/winrecord">
+  <view class='rot1'>
+    <!-- 字段前的图标 -->
+    <view class='lft'>
+      <image src='../../../img/zhongjiangjilu@2x.png' class='fq'></image>
+      <!-- 字段 -->
+      <view class='p5'>中奖记录</view>
+    </view>
+    <!-- 小箭头 -->
+    <image class='right' src='../../../img/xiaojiantou1.png'></image>
+  </view>
+</navigator>
+<!-- 我的兑换 -->
+<navigator class='rot' hover-class="none" url="../myexchange/myexchange">
+  <view class='rot1'>
+    <!-- 字段前的图标 -->
+    <view class='lft'>
+      <image src='../../../img/wodeduihuan@2x.png' class='mine'></image>
+      <!-- 字段 -->
+      <view class='p5'>我的兑换</view>
+    </view>
+    <!-- 小箭头 -->
+    <image class='right' src='../../../img/xiaojiantou1.png'></image>
+  </view>
+</navigator>
+<!-- 加V认证 -->
+<navigator class='rot' hover-class="none" url="../PlusVcertification/PlusVcertification">
+  <view class='rot1'>
+    <!-- 字段前的图标 -->
+    <view class='lft'>
+      <image src='../../../img/yanzhng@2x.png' class='v'></image>
+      <!-- 字段 -->
+      <view class='p5'>加V认证</view>
+    </view>
+    <!-- 小箭头 -->
+    <image class='right' src='../../../img/xiaojiantou1.png'></image>
+  </view>
+</navigator>
+<!-- 付费认证 -->
+<navigator class='rot' hover-class="none" url="../member/member">
+  <view class='rot1'>
+    <!-- 字段前的图标 -->
+    <view class='lft'>
+      <image src='../../../img/wodeduihuan@2x.png' class='mine'></image>
+      <!-- 字段 -->
+      <view class='p5'>付费认证</view>
+    </view>
+    <!-- 小箭头 -->
+    <image class='right' src='../../../img/xiaojiantou1.png'></image>
+  </view>
+</navigator>
+<!-- 我的好友 -->
+<navigator class='rot' hover-class="none" url="../invite/invite">
+  <view class='rot1'>
+    <!-- 字段前的图标 -->
+    <view class='lft'>
+      <image src='../../../img/wodehaoyou@2x.png' class='hy'></image>
+      <!-- 字段 -->
+      <view class='p5'>我的好友</view>
+    </view>
+    <!-- 小箭头 -->
+    <image class='right' src='../../../img/xiaojiantou1.png'></image>
+  </view>
+</navigator>
+<!-- 客服 -->
+<navigator class='rot' hover-class="none" url="../../luckDraw/service/service">
+  <view class='rot1'>
+    <!-- 字段前的图标 -->
+    <view class='lft'>
+      <image src='../../../img/kefu@2x.png' class='kf'></image>
+      <!-- 字段 -->
+      <view class='p5'>客服</view>
+    </view>
+    <!-- 小箭头 -->
+    <image class='right' src='../../../img/xiaojiantou1.png'></image>
+  </view>
+</navigator>
+<!-- 商务联系 -->
+<navigator class='rot' hover-class="none" url="../contact/contact">
+  <view class='rot1'>
+    <!-- 字段前的图标 -->
+    <view class='lft'>
+      <image src='../../../img/shangwulianxi@2x.png' class='dh'></image>
+      <!-- 字段 -->
+      <view class='p5'>商务联系</view>
+    </view>
+    <!-- 小箭头 -->
+    <image class='right' src='../../../img/xiaojiantou1.png'></image>
+  </view>
+</navigator>
+<!-- 常见问题 -->
+<navigator class='rot' hover-class="none" url="../problem/problem">
+  <view class='rot3'>
+    <!-- 字段前的图标 -->
+    <view class='lft'>
+      <image src='../../../img/changjianwenti@2x.png' class='wt'></image>
+      <!-- 字段 -->
+      <view class='p5'>常见问题</view>
+    </view>
+    <!-- 小箭头 -->
+    <image class='right' src='../../../img/xiaojiantou1.png'></image>
+  </view>
+</navigator>
+
+</view>

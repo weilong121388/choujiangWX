@@ -1,0 +1,38 @@
+<!--pages/integralMall/integralMall.wxml-->
+<view id='integralMall'>
+  <!-- 头部组件 -->
+  <headNav text="积分商城" my-class="jianbian" />
+  <!-- 积分和奖金 -->
+  <view class='top'>
+
+    <navigator class='topone' url="/pages/index/integral/integral" hover-class="none">
+      <view class='txt'>
+        <text class='txt1'>积分：{{arr.integral}}</text>
+        <text class='txt2'>查看积分记录</text>
+      </view>
+      <image src='../../../img/jifen@2x.png' class='jifen'></image>
+    </navigator>
+
+    <navigator class='topone' url="/pages/personalCenter/gold/gold" hover-class="none">
+      <view class='txt'>
+        <text class='txt1'>奖金：{{arr.bonus}}</text>
+        <text class='txt2'>点击领取奖金</text>
+      </view>
+      <image src='../../../img/jangjin@2x.png' class='jifen'></image>
+    </navigator>
+
+  </view>
+  <!-- 内容 -->
+  <view class='con'>
+    <navigator class='conone' wx:for='{{arr1}}' url='/pages/integralMall/detail/detail?id={{item.id}}'>
+      <image src='{{item.img}}' class='pic'></image>
+      <view class='tit'>
+        <view>
+          <text class='tit1'>{{item.gname}}</text>
+          <!-- <text class='tit1'>Double Wear 持妆无瑕气垫粉霜</text> -->
+        </view>
+        <text class='tit2'>{{item.point}}<text> 积分</text></text>
+      </view>
+    </navigator>
+  </view>
+</view>

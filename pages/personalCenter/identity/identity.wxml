@@ -1,0 +1,23 @@
+<!--pages/personalCenter/identity authentication/identity.wxml-->
+<headNav text="身份认证" my-class="head" imgPath="/img/back_black.png" urlPath="http://www.baidu.com" />
+<view class='padd'>
+  <view class='buju'>
+    <text class='font1'>上传身份证</text>
+    <text class='font2'>点击 开始识别正面与反面卡片完整字迹清晰</text>
+    <view class='row'>
+      <image src='/img/zhengmian@2x.png' class='tp'></image>
+      <image src='/img/fanmian@2x.png' class='tp'></image>
+    </view>
+  </view>
+</view>
+<view class='padd'>
+  <view class='buju'>
+    <text class='font1'>上传营业执照（选填）</text>
+    <text class='font2'>点击 开始识别正面与反面卡片完整字迹清晰</text>
+    <image src='/img/yingyezhizhao@2x.png' class='tp'></image>
+  </view>
+</view>
+
+<view class='btn'>
+  <button class='btn1'>提交</button>
+</view>

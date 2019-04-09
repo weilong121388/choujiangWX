@@ -1,0 +1,28 @@
+  <view class='header'>
+   <headNav text="所有抽奖"   my-class="aaa"  imgPath="/img/back_black.png"    urlPath="http://www.baidu.com" />
+  </view>
+  <!-- 所有抽奖 -->
+  <view class='list'>
+  <!-- 左边内容 -->
+    <view class='list_left'>
+      <image src='../../../img/dizhichanpin@2x.png'></image>
+    </view>
+    <!-- 右边内容 -->
+    <view class='list_right'>
+      <view class='truncation'>
+      <!-- 文字1 -->
+      <view class='word_1'>
+      <text>奖品：ESTEELAUDER/雅诗兰黛 Double Wear 持妆无瑕气</text>
+      </view>
+      <!-- 文字2 -->
+      <view class='word_2'>
+      <text>04月01日 15：00 自动开奖</text>
+      </view>
+      <!-- 文字2 -->
+      <view class='word_3'>
+      <text>猴子偷桃桃 赞助</text>
+      </view>
+    </view>
+      </view>
+  </view>
+  

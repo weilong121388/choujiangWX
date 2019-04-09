@@ -1,0 +1,121 @@
+<view id='index'>
+  <headNav text="福利" my-class="jianbian" />
+  <view class='top'>
+    <navigator class='topone' url="/pages/index/taskList/taskList" hover-class="none">
+      <view class='txt'>
+        <text class='txt1'>成就值：2566</text>
+        <text class='txt2'>做任务领取成就值</text>
+      </view>
+      <image src='../../../img/jifen@2x.png' class='jifen'></image>
+    </navigator>
+
+    <navigator class='topone' url="/pages/index/integral/integral" hover-class="none">
+      <view class='txt'>
+        <text class='txt1'>积分：200</text>
+        <text class='txt2'>领取每日积分</text>
+      </view>
+      <image src='../../../img/jangjin@2x.png' class='jifen'></image>
+    </navigator>
+
+  </view>
+  <view class="top_img">
+    <image src='../../../img/shouyebanner@2x.png'></image>
+  </view>
+  <!-- 内容 -->
+  <view class='con'>
+    <navigator class='con_box' url="/pages/index/rankingList/rankingList" hover-class="none">
+      <image src='../../../img/chengjiu@2x.png' class='con_img'></image>
+      <view class='con_tit'>排行榜</view>
+    </navigator>
+    <!-- 点击签到弹出 -->
+    <view class='qiandaotanchu' wx:if="{{showModal}}">
+      <view class="modal-dialog" style="background: url(../../../img/qiandao@2x.png) no-repeat;height: 750rpx;background-size: 100%;">
+        <view class="modal-title">签到成功</view>
+        <view class="modal_yqts"> 已连续签到1天</view>
+        <view class='modal_text'>
+          <text>连续签到可以领翻倍红包</text>
+          <view>再签到六天可领取红包</view>
+        </view>
+        <view class='modal_qdk'>
+          <view class='qdk_1'>第一天
+            <image src="../../../img/check.png" class='modal_check'></image>
+          </view>
+          <view style="background: url(../../../img/qiandao2@2x.png) no-repeat;width: 111rpx; background-size:100%;" class='qdk_1'>第二天
+            <view class='modal_fen'>+2</view>
+          </view>
+          <view style="background: url(../../../img/qiandao2@2x.png) no-repeat;width: 111rpx; background-size:100%;" class='qdk_1'>第三天
+            <view class='modal_fen'>+3</view>
+          </view>
+          <view style="background: url(../../../img/qiandao2@2x.png) no-repeat;width: 111rpx; background-size:100%;" class='qdk_1'>第四天
+            <view class='modal_fen'>+4</view>
+          </view>
+          <view style="background: url(../../../img/qiandao2@2x.png) no-repeat;width: 111rpx; background-size:100%;" class='qdk_1'>第五天
+            <view class='modal_fen'>+5</view>
+          </view>
+          <view style="background: url(../../../img/qiandao2@2x.png) no-repeat;width: 111rpx; background-size:100%;" class='qdk_1'>第六天
+            <view class='modal_fen'>+6</view>
+          </view>
+          <view style="background: url(../../../img/qiandao2@2x.png) no-repeat;width: 111rpx; background-size:100%;" class='qdk_1'>第七天
+            <view class='modal_fen'>+7</view>
+          </view>
+        </view>
+        <view class="btn-cancel" bindtap="onCancel" data-status="cancel">
+          <image src='../../../img/guanbiqiandao.png' class='modal_guanbi'></image>
+        </view>
+      </view>
+    </view>
+
+    <navigator class='con_box' hover-class="none" bindtap='tanchu'>
+      <image src='../../../img/shouyeqiandao@2x.png' class='con_img'></image>
+      <view class='con_tit'>签到</view>
+    </navigator>
+    <navigator class='con_box' url="/pages/index/company_display/company_display" hover-class="none">
+      <image src='../../../img/gongsizhanshi@2x.png' class='con_img'></image>
+      <view class='con_tit'>公司展示</view>
+    </navigator>
+    <navigator class='con_box' url="/pages/index/prize/prize" hover-class="none">
+      <image src='../../../img/gengduochoujiang@2x.png' class='con_img'></image>
+      <view class='con_tit'>更多抽奖</view>
+    </navigator>
+  </view>
+
+  <view class='list_top'>
+    <view class='list_tit' style="background:url('../../../img/anjiao@2x.png') no-repeat;background-size:100%;height:60rpx;">抽奖活动</view>
+    <navigator class='share' url="#">分享</navigator>
+  </view>
+
+  <view class='lists_box'>
+    <navigator class='lists' url="/pages/index/taskList/taskList" hover-class="none">
+      <view class='lists_con'>保障金1000元</view>
+      <view class='lists_top'>
+        <image src='../../../img/mingxingfendi@2x.png'></image>
+      </view>
+      <view class='lists_tit'>
+        <view class='lists_name'>
+          <text class='mr_rg'>猴子偷桃桃</text>赞助</view>
+        <view class='lists_num'>奖品：任天堂 Switch 游戏机x1任天堂 Switch 游戏机x1任天堂 Switch 游戏机x1</view>
+        <view class='lists_time'>
+          <text class='mr_rg'>04月01日15：00</text>自动开奖</view>
+      </view>
+    </navigator>
+  </view>
+  <view class='lists_bot'>
+    <navigator class='lists_bot_top' url="/pages/index/taskList/taskList" hover-class="none">
+      <view class='lists_bot_top_img'>
+        <image src='../../../img/chan[intuuu@2x.png'></image>
+      </view>
+      <view class='lists_bot_top_tit'>
+        <view class='lists_bot_lists_num'>奖品：ESTEELAUDER/雅诗兰黛 Double Wear 持妆无瑕气垫</view>
+        <view class='lists_bot_lists_time'>
+          <text class='mr_rg'>04月01日15：00</text> 自动开奖</view>
+        <view class='lists_bot_lists_name'>
+          <text class='mr_rg'>猴子偷桃桃</text>赞助</view>
+      </view>
+    </navigator>
+
+    <navigator class='btn' url="/pages/index/prize/prize" hover-class="none">
+      <view class='btn_tit'>查看全部</view>
+      <image src='../../../img/fanhui@2x.png'></image>
+    </navigator>
+  </view>
+</view>

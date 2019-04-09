@@ -1,0 +1,86 @@
+<view class='body'>
+  <view class="headerbox">
+    <headNav text="支付中心" my-class="aaa" imgPath="/img/back_white.png" />
+    <view class="tishi">
+      <image style="  width:23rpx;  height:23rpx;margin-right:20rpx;" src="/img/tanaho0@2x.png"></image>
+      付费会员在支付平台费用时，现金和积分都减半。
+    </view>
+
+  </view>
+  <view class="headertext_box">
+    <radio-group bindchange="radioChang">
+      <view>
+        <label>
+          <radio data-id='1' value="money" name="w" checked="true" />
+          <text class="header_text_name">积分抵用</text>
+          <text class="header_text red">{{money}}</text>
+        </label>
+      </view>
+      <view>
+        <label>
+          <radio data-id="2" value="point" name="w" checked="" />
+          <text class="header_text_name">平台费用</text>
+          <text class="header_text">￥{{point}}</text>
+        </label>
+      </view>
+    </radio-group>
+    <view>
+      <view class="tishi2">
+        <image style="  width:23rpx;  height:23rpx;margin-right:20rpx;" src="/img/tanaho0@2x.png"></image>
+        支付方式为二选一
+      </view>
+      <view class='tishi2  none{{jifshow?"bright789_view_hide":""}}'>
+        <image style="  width:23rpx;  height:23rpx;margin-right:20rpx;" src="/img/tanaho0@2x.png"></image>
+        你的积分不足，请使用微信支付
+      </view>
+    </view>
+  </view>
+  <view class="content_box">
+    <view>
+      <text>保证金</text>
+      <text class="content_text">￥{{bond}}</text>
+    </view>
+    <checkbox-group bindchange="checkboxChangt">
+      <view>
+        <label>
+          <checkbox value="红包" name="w" checked="" />
+          <text>红包</text>
+          <text class="content_text">￥{{redmoney}}</text>
+        </label>
+      </view>
+      <view>
+        <label>
+          <checkbox value="推荐" name="w" checked="" />
+          <text>推荐</text>
+          <text class="content_text">￥{{ecommoney}}</text>
+        </label>
+      </view>
+    </checkbox-group>
+    <view>
+      <view class='jine'>
+        <text class='jine_name '>总计：</text>
+        <text class='jine_text red'>￥800.00</text>
+      </view>
+    </view>
+  </view>
+  <view class='Pay_name'>
+    支付方式
+  </view>
+  <view class='Pay_box'>
+    <image style='width:51rpx;height:46rpx;margin-right:30rpx;vertical-align: middle;' src='/img/weixin@2x.png'></image>
+    <text>微信支付</text>
+  </view>
+  <view class='maks none{{showView?"bright789_view_hide":""}}'>
+    <view>
+      <view class='maks_top'>
+        <image style='width:200rpx;height:200rpx;position:absolute;left:50%;transform:translate(-50%);top:50rpx;' src='/img/shenhezhong@2x.png'></image>
+        <image style='width:100%;height:100rpx;position:absolute;bottom:-6rpx;' src='/img/bolang@2x.png'></image>
+      </view>
+      <view class='maks_bottom'>
+        <view class='maks_bottom_text'>支付成功,等待后台审核</view>
+        <button bindtap="not" class='bat'>好的</button>
+      </view>
+    </view>
+  </view>
+  <button bindtap="click" class='btn'>确认支付</button>
+</view>

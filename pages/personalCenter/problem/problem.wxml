@@ -1,0 +1,17 @@
+<!-- 常见问题 -->
+<!-- 头部 -->
+<headNav text="常见问题" my-class="aaa" imgPath="../../../img/back_black.png" />
+<view class='content'>
+  <view class='d1'>关于订单</view>
+  <view class='text'>
+    <text> 1.已确认收货的订单消失了？</text>
+    <image src='../../../img/icon01.png'></image>
+  </view>
+</view>
+<view class='content'>
+  <view class='d2'>关于订单</view>
+  <view class='text'>
+    <text> 1.已确认收货的订单消失了？</text>
+    <image src='../../../img/icon01.png'></image>
+  </view>
+</view>

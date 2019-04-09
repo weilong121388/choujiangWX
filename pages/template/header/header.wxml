@@ -1,0 +1,13 @@
+<view class='box'>
+  <custom-component class="my-class head">
+    <!-- <view class="head flex"> -->
+      <view class="left">
+        <image src="{{imgPath}}" class="back" bindtap='back'/>
+      </view>
+      <text class="title flex1">{{text}}</text>
+      <view class="right">
+        <navigator url='{{urlPath}}' class='rightTitle'>{{rightTitle}}</navigator>
+      </view>
+    <!-- </view> -->
+  </custom-component>
+</view>

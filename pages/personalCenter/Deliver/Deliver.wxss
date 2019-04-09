@@ -1,0 +1,143 @@
+page {
+  width: 100%;
+  height: 100%;
+  background-color: #f7f7f7;
+}
+.aaa{
+  height: 120rpx;
+  color:rgba(0,0,0,1);
+  font-size: 36rpx;
+  background: #fff;
+}
+.boxs {
+  background: rgba(255, 255, 255, 1);
+  padding: 0 30rpx 30rpx 30rpx;
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+}
+
+.xx {
+  width: 100%;
+  padding: 30rpx 0;
+  font-size: 30rpx;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+  background: rgba(255, 255, 255, 1);
+  border-bottom: 1px #f7f7f7 solid;
+}
+
+.bor {
+  padding: 29rpx 23rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.name {
+  font-size: 30rpx;
+  font-weight: 400;
+  color: rgba(51, 51, 51, 1);
+}
+
+.phone {
+  font-size: 30rpx;
+  font-weight: 400;
+  color: rgba(51, 51, 51, 1);
+}
+
+.dz {
+  padding: 0 23rpx;
+  font-size: 30rpx;
+  font-weight: 400;
+  color: rgba(51, 51, 51, 1);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+
+.foot {
+  padding: 30rpx;
+  background: rgba(255, 255, 255, 1);
+}
+
+.fot {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 1px solid #f7f7f7;
+  padding-bottom: 29rpx;
+}
+
+.dh {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.dh image {
+  width: 27rpx;
+  height: 30rpx;
+}
+
+.zi {
+  font-size: 30rpx;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+  margin-left: 30rpx;
+}
+
+input {
+  flex: 1;
+  font-size: 25rpx;
+  font-weight: 400;
+  text-align: right;
+  color: rgba(153, 153, 153, 1);
+}
+
+.tp {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 30rpx 0;
+}
+
+.tp image {
+  width: 30rpx;
+  height: 30rpx;
+}
+
+.sc {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.sc image {
+  width: 106rpx;
+  height: 106rpx;
+}
+
+.i1 {
+  margin-left: 59rpx;
+}
+
+.i2 {
+  margin-left: 30rpx;
+}
+
+.btn {
+  width: 90%;
+  height: 72rpx;
+  margin: 0 auto;
+  background: linear-gradient(90deg, rgba(249, 182, 0, 1) 0%, rgba(255, 35, 61, 1) 100%);
+  border-radius: 36rpx;
+  font-size: 30rpx;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  margin-top: 189rpx;
+  line-height: 72rpx;
+  text-align: center;
+}

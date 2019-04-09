@@ -1,0 +1,91 @@
+<headNav text="任务列表" my-class="aaa" imgPath="../../../img/back_black.png" />
+<view class='big_kuang'>
+  <view class='name'>
+    <image style="width: 50px; height: 50px;margin-top: 20rpx;margin-left:25rpx;" src="../../../img/meiridenglu@2x.png"></image>
+    <view class='name_p'>
+      <view class='name_w'>每日登录</view>
+      <view class='name_e'>+10积分</view>
+    </view>
+  </view>
+  <view class='zhuangtai_1'><view class='top'>已完成</view></view>
+</view>
+<view class='big_kuang'>
+  <view class='name'>
+    <image style="width: 50px; height: 50px;margin-top: 20rpx;margin-left:25rpx;" src="../../../img/yaoqinghaoyou@2x.png"></image>
+    <view class='name_p'>
+      <view class='name_w'>邀请好友</view>
+      <view class='name_e'>+20积分</view>
+    </view>
+  </view>
+  <view class='zhuangtai_2'><view class='top'>去关注</view></view>
+</view>
+<view class='big_kuang'>
+  <view class='name'>
+    <image style="width: 50px; height: 50px;margin-top: 20rpx;margin-left:25rpx;" src="../../../img/guanzhuweixin@2x.png"></image>
+    <view class='name_p'>
+      <view class='name_w'>关注微信公众号</view>
+      <view class='name_e'>+20积分</view>
+    </view>
+  </view>
+  <view class='zhuangtai_2'><view class='top'>去邀请</view> </view>
+</view>
+<view class='big_kuang'>
+  <view class='name'>
+    <image style="width: 50px; height: 50px;margin-top: 20rpx;margin-left:25rpx;" src="../../../img/qqyaoqing@2x.png"></image>
+    <view class='name_p'>
+      <view class='name_w'>填写QQ群邀请码</view>
+      <view class='name_e'>+20积分</view>
+    </view>
+  </view>
+  <view class='zhuangtai_2'><view class='top'>去填写</view> </view>
+</view>
+<view class='big_kuang'>
+  <view class='name'>
+    <image style="width: 50px; height: 50px;margin-top: 20rpx;margin-left:25rpx;" src="../../../img/chengxu@2x.png"></image>
+    <view class='name_p'>
+      <view class='name_w'>添加到我的程序</view>
+      <view class='name_e'>+20积分</view>
+    </view>
+  </view>
+  <view class='zhuangtai_2'><view class='top'>去添加</view> </view>
+</view>
+<view class='big_kuang'>
+  <view class='name'>
+    <image style="width: 50px; height: 50px;margin-top: 20rpx;margin-left:25rpx;" src="../../../img/fenxiang@2x.png"></image>
+    <view class='name_p'>
+      <view class='name_w'>分享程序</view>
+      <view class='name_e'>+20积分</view>
+    </view>
+  </view>
+  <view class='zhuangtai_2'><view class='top'>去分享</view> </view>
+</view>
+<view class='big_kuang'>
+  <view class='name'>
+    <image style="width: 50px; height: 50px;margin-top: 20rpx;margin-left:25rpx;" src="../../../img/tianxei@2x.png"></image>
+    <view class='name_p'>
+      <view class='name_w'>填写邀请人的邀请码</view>
+      <view class='name_e'>+20积分</view>
+    </view>
+  </view>
+  <view class='zhuangtai_2'><view class='top'>去填写</view> </view>
+</view>
+<view class='big_kuang'>
+  <view class='name'>
+    <image style="width: 50px; height: 50px;margin-top: 20rpx;margin-left:25rpx;" src="../../../img/bangdinghsoujihao@2x.png"></image>
+    <view class='name_p'>
+      <view class='name_w'>绑定手机号</view>
+      <view class='name_e'>+20积分</view>
+    </view>
+  </view>
+  <view class='zhuangtai_2'><view class='top'>去绑定</view> </view>
+</view>
+<view class='big_kuang'>
+  <view class='name'>
+    <image style="width: 50px; height: 50px;margin-top: 20rpx;margin-left:25rpx;" src="../../../img/weixinqun@2x.png"></image>
+    <view class='name_p'>
+      <view class='name_w'>填写微信群的邀请码</view>
+      <view class='name_e'>+20积分</view>
+    </view>
+  </view>
+  <view class='zhuangtai_2'><view class='top'>去填写</view> </view>
+</view>
